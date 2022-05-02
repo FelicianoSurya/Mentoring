@@ -1,0 +1,29 @@
+footer{
+    background-color: #F3D060;
+    min-height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Mulish;
+    color:#132E75;
+    padding:0px 70px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.address{
+    font-size: 19px;
+}
+
+.sponsor{
+    margin-top: 80px;
+}
+
+@media(max-width:769px){
+    footer a{
+        width: 50px !important;
+        height: 50px !important;
+        margin-top:10px !important;
+    }
+}
