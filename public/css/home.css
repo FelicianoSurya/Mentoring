@@ -1,0 +1,197 @@
+/* vektor */
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.vektor_left{
+    top:0;
+    left:0;
+}
+
+.vektor_right{
+    top:0;
+    right:0;
+}
+
+.vektor_bawah{
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+
+.doplet_home{
+    top:50px;    
+}
+
+.droplet_about{
+    top:-30px;
+}
+
+.bell{
+    top:-70px;
+    right: 40px;
+}
+
+.maskot_announcement{
+    bottom:-120px;
+    left:-100px;
+    z-index: 100;
+}
+
+.vektor_camera{
+    top:-120px;
+    right:-50px;
+}
+
+.vektor_left_bawah{
+    bottom:0;
+    left:0;
+}
+
+.vektor_right_bawah{
+    bottom:0;
+    right:0;
+}
+
+/* section 1 */
+
+.section-1{
+    background-color: #B9E3EC;
+    padding: 100px 0px 300px 0px;
+}
+
+
+.subjudul{
+    color: #2D4FAE;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.section-1 .subjudul{
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.yellow_shadow{
+    color:#3754A2;
+    text-shadow: 4px 4px 0px #F3D060;
+}
+
+.judul{
+    font-size: 90px;
+}
+
+.umn_2022{
+    font-size: 80px;
+}
+
+/* section 2 */
+
+.section-2{
+    background-color: #F1D15E;
+    padding:60px 0px 400px 0px;
+}
+
+.section-2 .judul{
+    color:#3754A2;
+    text-shadow: 6px 4px 0px #B9E3EC;
+}
+
+.section-2 .subjudul{
+    letter-spacing: 5px;
+}
+
+.box_annoucement{
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.box_annoucement_content{
+    background-color: #FFE99B;
+    border-radius:10px;
+}
+
+.box_annoucement_content h2{
+    color:#646464;
+}
+
+.box_annoucement_content p{
+    color:rgba(0,0,0,0.6);
+    width: 30%;
+}
+
+.section-2 button{
+    background-color: #7885A9;
+    color:white;
+}
+
+/* section-3 */
+.section-3{
+    background-color:#3654A3;
+    margin-top: -50px;
+    padding:6px 0px 300px 0px;
+    z-index: 1000;
+}
+
+.box_news{
+    background-color: #F0D061;
+    box-shadow: 6px 4px 0px 0px #B93529;
+    border-radius: 20px;
+}
+
+.section-3 .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.section-3 .judul{
+    font-size: 35px;
+    color:#2D4FAE;
+}
+
+.section-3 .image-content{
+    background-image:url('../Images/Homepage/4.png');
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.section-3 .arah{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3654A3;
+}
+
+.arah p{
+    font-size: 30px;
+    margin-bottom:5px;
+    color:white;
+}
+
+/* section-4 */
+
+.section-4{
+    background-color: #B9E3EC;
+    padding:10px 0px 220px 0px;
+}
+
+.section-4 .subjudul{
+    letter-spacing: 6px;
+}
+
+.section-4 p{
+    width: 50%;
+    text-align: justify;
+    color:#2D4FAE;
+}
+
+.section-4 button{
+    background-color: #2D4FAE;
+    color:white;
+}

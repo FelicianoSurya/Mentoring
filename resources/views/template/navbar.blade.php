@@ -1,7 +1,7 @@
 <header>
     <nav class="p-3 navbar navbar-expand-md navbar-fixed-top">
-        <div class="w-100 row">
-            <div class="d-flex col-lg-2 align-items-center justify-content-lg-center">
+        <div class="row box-nav">
+            <div class="d-flex col-lg-2 col-2 align-items-center justify-content-lg-center">
                 <a href="/">
                     <img src="{{ asset('Images/Logo/logo_header.png') }}" alt="logo">
                 </a>
@@ -10,14 +10,13 @@
                 <h1 class="bold">MENTORING UMN 2022</h1>
             </div>
         </div>
+        <div id="nav-icon3" class="d-flex">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
-
-    <div id="nav-icon3" class="d-flex">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
 
     <div class="nav-main d-flex flex-column">
         <div class="nav-menu-container container">
