@@ -9,9 +9,9 @@
 <div class="body">
     <div class="section-1 relative d-flex flex-column justify-content-center align-items-center">
         <!-- ------------------------------------vektor desktop---------------------------------------------------- -->
-        <img class="absolute vektor_left" src="{{ asset('Images/Homepage/section_1_vektor_left.png') }}" alt="vektor_left">
-        <img class="absolute vektor_right" src="{{ asset('Images/Homepage/section_1_vektor_right.png') }}" alt="vektor_right">
-        <img class="absolute vektor_bawah" src="{{ asset('Images/Homepage/section_1_vektor_bawah.png') }}" alt="vektor_bawah">
+        <img class="absolute vektor_left" src="{{ asset('Images/Homepage/section_1_vektor_left.png') }}" width="40%" alt="vektor_left">
+        <img class="absolute vektor_right" src="{{ asset('Images/Homepage/section_1_vektor_right.png') }}" width="40%" alt="vektor_right">
+        <img class="absolute vektor_bawah" src="{{ asset('Images/Homepage/section_1_vektor_bawah.png') }}" width="40%" alt="vektor_bawah">
         <!-- ------------------------------------------------------------------------------------------------------- -->
 
         <img src="{{ asset('Images/Homepage/logo.png') }}" alt="logoHome">
@@ -24,13 +24,13 @@
     </div>
     <div class="section-2 relative d-flex flex-column justify-content-center align-items-center">
         <!-- ------------------------------------vektor desktop---------------------------------------------------- -->
-        <img class="absolute vektor_left" src="{{ asset('Images/Homepage/section_2_vektor_left.png') }}" alt="vektor_left">
-        <img class="absolute vektor_right" src="{{ asset('Images/Homepage/section_2_vektor_right.png') }}" alt="vektor_right">
-        <img class="absolute vektor_bawah" src="{{ asset('Images/Homepage/section_2_vektor_bawah.png') }}" alt="vektor_bawah">
+        <img class="absolute vektor_left" src="{{ asset('Images/Homepage/section_2_vektor_left.png') }}" width="9%" alt="vektor_left">
+        <img class="absolute vektor_right" src="{{ asset('Images/Homepage/section_2_vektor_right.png') }}" width="9%" alt="vektor_right">
+        <img class="absolute vektor_bawah" src="{{ asset('Images/Homepage/section_2_vektor_bawah.png') }}" width="9%" alt="vektor_bawah">
         <!-- ------------------------------------------------------------------------------------------------------- -->
 
         <h1 class="bold judul">ANNOUNCEMENT</h1>
-        <p class="mendium subjudul">ABOUT MENTORING 2022</p>
+        <p class="medium subjudul">ABOUT MENTORING 2022</p>
         <div class="box_annoucement d-flex flex-column align-items-center relative p-5 mt-5">    
             <img class="absolute bell" src="{{ asset('Images/Homepage/Bell_icon.png') }}" alt="vektor_left">
             <img class="absolute maskot_announcement" src="{{ asset('Images/Homepage/vektor_announcement.png') }}" alt="vektor_right">
