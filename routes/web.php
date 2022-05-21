@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('page.home');
 });
+
+Route::get('/news', [Controller::class, 'news'])->name('news');
 
 
