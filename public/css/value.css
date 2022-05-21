@@ -1,0 +1,132 @@
+.judul{
+    font-size: 90px;
+}
+
+.umn_2022{
+    color: #F3D060;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.bg{
+    width: 100%;
+}
+
+.bg1{
+    z-index: 2;
+}
+
+.bg2{
+    z-index: 1;
+    top: 70vw;
+}
+
+.content{
+    z-index: 100;
+}
+
+.section1 .logo5c{
+    width: 40vw;
+}
+
+.section1 .maskot{
+    top: 65vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20vw;
+}
+
+.section2{
+    background-color: #F3D060;
+}
+
+.section2 .content{
+    top: 30vw;
+}
+
+.section2 .droplet{
+    width: 45vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nilai5c{
+    margin-top: 10vw;
+    width: 12vw;
+}
+
+.nilai5c:hover{
+    border: solid 6px #c6a4a6;
+    border-radius: 50% ;
+}
+
+.nilai5c:focus{
+    border: solid 6px #d94545;
+    border-radius: 50% ;
+}
+
+.blue_shadow{
+    color:#F3D060;
+    text-shadow: 4px 4px 0px #3754A2;
+}
+
+.yellow_shadow{
+    color:#3754A2;
+    text-shadow: 4px 4px 0px #F3D060;
+}
+
+.lightblue_shadow{
+    color:#3754A2;
+    text-shadow: 4px 4px 0px #83C4Ed;
+}
+
+.arti{
+    color:#3754A2
+}
+
+.penjelasan{
+    font-size: 20px;
+}
+
+.text-box{
+    margin-top: 25vw;
+    border-radius: 30px;
+    padding: 5vw;
+    width: 72vw;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #2D4FAE;
+    box-shadow: 1vw 1vw #d94545;
+}
+
+.text-box img{
+    left: 50%;
+    transform: translate(-50%);
+    width: 40vw;
+}
+
+.text-box .position-caring{
+    top: -30vw;
+}
+
+.text-box .position-credible{
+    top: -28vw;
+}
+
+.text-box .position-competent{
+    top: -30vw;
+}
+
+.text-box .position-competitive{
+    top: -31vw;
+}
+
+.text-box .position-customerdelight{
+    top: -29vw;
+}

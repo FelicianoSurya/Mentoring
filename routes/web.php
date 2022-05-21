@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('page.home');
 });
 
+Route::get('/values', function () {
+    return view('page.values');
+});
 
