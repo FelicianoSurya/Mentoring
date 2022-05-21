@@ -46,7 +46,7 @@
     <!-- Swiper -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    @include('template.footer')
+    {{-- @include('template.footer') --}}
     <script>
         $(document).ready(function(){
             $('#nav-icon3').click(function(){
