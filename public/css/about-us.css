@@ -1,0 +1,442 @@
+.about{
+    overflow: hidden;
+}
+
+.bg-blue{
+    background-color: #b9e3ec;
+}
+
+.bg-yellow{
+    background-color: #f3d060;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.text-blue{
+    color: #2d4fae;
+}
+
+.text-yellow{
+    color: #f3d060;
+}
+
+.relative{
+    position: relative;
+}
+
+.mentoring{
+    position: absolute;
+    top: 7vw;
+}
+
+.z-100{
+    z-index: 100;
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.z-10{
+    z-index: 10;
+}
+
+.text-shadow-yellow{
+    text-shadow: .5vw .4vw #f3d060;
+}
+
+.text-shadow-red{
+    text-shadow: .5vw .4vw #d94545;
+}
+
+.text-shadow-blue{
+    text-shadow: .5vw .4vw #b9e3ec;
+}
+
+.bg-black{
+    content: "";
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100vw;
+    height: 1000vh;
+    z-index: 1000;
+    top: -500vh;
+    left: 0;
+    z-index: 10;
+}
+
+.font-7{
+    font-size: 7vw;
+}
+
+.font-4{
+    font-size: 4vw;
+}
+
+.font-2{
+    font-size: 2vw;
+}
+
+/* trails */
+.trails1{
+    top: 30%;
+    left: 0;
+    width: 12vw;
+}
+
+.trails2{
+    top: 0;
+    right: 0;
+    width: 14vw;
+}
+
+.trails3{
+    top: 70%;
+    right: 0;
+}
+
+.trails5{
+    top: 25vw;
+    right: 0;
+}
+/* section 1 */
+
+#mentoring{
+    padding-bottom: 20vw;
+}
+
+.mentoring h1{
+    font-size: 7vw;
+}
+
+.medium-bold{
+    font-weight: bold;
+}
+
+.mentoring p{
+    font-size: 3vw;
+}
+
+#mentoring .judul{
+    background-color: #d94545;
+    border-radius: 1.5vw;
+    width: 70%;
+    padding: 10px 0;
+    font-size: 2.5vw;
+    box-shadow: .8vw .8vw #2d4fae,
+                1.1vw 1.1vw .5vw rgba(0,0,0,0.3);
+}
+
+.text-box{
+    background-color: white;
+    border-radius: 1.5vw;
+    text-align: justify;
+    width: 70%;
+    font-size: 1.4vw;
+    box-shadow: 1vw 1vw #2d4fae;
+}
+
+#mentoring .question{
+    width: 20vw;
+    bottom: -10vw;
+    left: -5vw;
+}
+
+/* section 2 */
+
+.top-center{
+    top: 24vh;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card h3{
+    padding:2vw 0;
+    text-align: center;
+    font-size:2vw;
+    font-weight: bold;
+    border-radius: 2vw 2vw 0 0 !important;
+    background: #ffdd71;
+}
+
+.card{
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    width: 80%;
+    border: none;
+    text-align: justify;
+    border-radius: 2vw;
+    font-size: 3vw;
+}
+
+.card .zachery{
+    top: -15vh;
+    right: -2vw;
+    z-index: 20;
+}
+
+/* section 3 */
+
+#theme .pop-Up{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+#theme .text-box{
+    width: 90%;
+    border-radius: 2vw;
+}
+
+#theme .text-box-short{
+    width: 90%;
+    font-size: 10vw;
+}
+
+#theme .judul{
+    top: 20vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#theme .box-popUp p{
+    font-size: 2.5vw;
+}
+
+.top-left{
+    top: 0;
+    left: 0;
+}
+
+/* section 4 */
+
+#value .margin-top{
+    top: 5vw;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80vw;
+}
+
+.button-close{
+    top: -25px;
+    right: 20px;
+    border: none;
+    background-color: rgba(109, 109, 109, 0.4);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-learnMore{
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: .4vw;
+}
+
+.dark-blue{
+    background-color: #2d4fae;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .logo{
+        width: 50%;
+    }
+    #mentoring .judul{
+        width: 90%;
+        padding: 2px 0;
+        font-size: 3.5vw;
+        box-shadow: 5px 5px #2d4fae;
+    }
+    #mentoring .text-box{
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    #mentoring .mentoring img{
+        width: 15%;
+    }
+
+    .mentoring{
+        position: relative;
+        top: 20px;
+    }
+    .mentoring h1{
+        font-size: 10vw;
+        margin-bottom: 12vw;
+    }
+    .mentoring p{
+        font-size: 5vw;
+    }
+
+    #mentoring .zachery{
+        width: 30vw;
+        bottom: 3.5vw;
+        right: 3vw;
+    }
+    .card .zachery{
+        display: none;
+    }
+
+    .top-zachery{
+        display: block;
+        top: 5.5vh;
+        left: 50%;
+        z-index: 0;
+        width: 30vw;
+        transform: translate(-50%);
+    }
+
+    .circle{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .circle-blue{
+        outline: 1.8vw solid #2d4fae;
+    }
+
+    .circle-yellow{
+        outline: 1.8vw solid #f3d060;
+    }
+
+    .circle:hover{
+        outline: 1.8vw solid #a9b4d5;
+    }
+
+    .active{
+        outline: 1.8vw solid #e3f8ff;
+        filter: drop-shadow(0 0 10px #e3f8ff);
+    }
+
+    .middle{
+        top: 48vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #theme .font-size{
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .top-zachery{
+        top: 12vh;
+    }
+    .card{
+        font-size: 1.5vw;
+    }
+
+    #theme .box-popUp p{
+        font-size: 2vw;
+    }
+
+    .pop-Up .text-shadow-red{
+        font-size: 4vw;
+    }
+
+    .text-list{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo{
+        width: 800px;
+    }
+
+    #mentoring .question{
+        width: 250px;
+        bottom: -8vw;
+        left: -2vw;
+    }
+
+    #mentoring .zachery{
+        width: 20vw;
+        bottom: 9vw;
+        right: 8vw;
+    }
+
+    .top-zachery{
+        display: none;
+    }
+
+    .top-center{
+        top: 50vh;
+    }
+
+    .bottom-right{
+        width: 30vw;
+        bottom: 3.5vw;
+        right: 9vw;
+    }
+
+    .circle{
+        width: 220px;
+        height: 220px;
+    }
+
+    .circle-blue{
+        outline: 15px solid #2d4fae;
+    }
+
+    .circle-yellow{
+        outline: 15px solid #f3d060;
+    }
+
+    .active::before{
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        content: "";
+        z-index: -1;
+        outline: 30px solid #e3f8ff; 
+        filter: drop-shadow(0 0 20px #e3f8ff);
+    }
+
+    .circle:hover{
+        outline: 15px solid #a9b4d5;
+    }
+
+    .middle{
+        top: 53vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #theme .font-size{
+        font-size: 1.8vw;
+    }
+
+    .card{
+        width: 25vw;
+        height: 28vw;
+    }
+
+    #theme .text-box-short{
+        width: 55%;
+        font-size: 1vw;
+    }
+
+    #theme .box-popUp p{
+        font-size: 1vw;
+    }
+
+    #theme .pop-Up{
+        border-radius: 2vw;
+    }
+
+    .pop-Up .text-shadow-red{
+        text-shadow: .5vw .4vw #2d4fae;
+    }
+
+    #committe .judul{
+        font-size: 4vw;
+    }
+}

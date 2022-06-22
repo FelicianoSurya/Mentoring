@@ -18,12 +18,11 @@ Route::get('/', function () {
     return view('page.home');
 });
 
-<<<<<<< HEAD
 Route::get('/values', function () {
     return view('page.values');
 });
-=======
-Route::get('/news', [Controller::class, 'news'])->name('news');
 
->>>>>>> b8598c0a0e2111084f1b024b70b5090a05b8f0fc
+Route::get('/about-us', function () {
+    return view('page.aboutUs');
+});
 

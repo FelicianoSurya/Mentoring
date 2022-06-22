@@ -14,6 +14,11 @@
 }
 
 @font-face{
+    font-family: Mulish_lightBold;
+    src: url('../../fonts/Mulish/Mulish-Bold.ttf');
+}
+
+@font-face{
     font-family: Mulish_medium;
     src: url('../../fonts/Mulish/Mulish-Medium.ttf');
 }
@@ -32,4 +37,8 @@
 
 .medium{
     font-family: Mulish_medium;
+}
+
+.lightBold{
+    font-family: Mulish_lightBold;
 }
