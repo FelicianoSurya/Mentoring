@@ -26,3 +26,4 @@ Route::get('/about-us', function () {
     return view('page.aboutUs');
 });
 
+Route::get('/news', [Controller::class, 'news'])->name('news');

@@ -7,6 +7,39 @@
     position: relative;
 }
 
+.bg-left{
+    top:85vw;
+    z-index: 100;
+    width: 9%;
+}
+
+.bg-right{
+    top:85vw;
+    right:0;
+    z-index: 100;
+    width: 9%;
+}
+
+.vektor_top_left{
+    top:0;
+    left:0;
+}
+
+.vektor_top_right{
+    top:0;
+    right:0;
+}
+
+.vektor_bot_left{
+    bottom:0;
+    left:0;
+}
+
+.vektor_bot_right{
+    bottom:0;
+    right:0;
+}
+
 .vektor_left{
     top:0;
     left:0;
@@ -24,27 +57,30 @@
 }
 
 .doplet_home{
-    top:50px;    
+    top:4vw;    
 }
 
 .droplet_about{
-    top:-30px;
+    top:1vw;
+    width: 40%;
 }
 
 .bell{
-    top:-70px;
-    right: 40px;
+    top:-5vw;
+    right: 3vw;
+    width: 8%;
 }
 
 .maskot_announcement{
-    bottom:-120px;
-    left:-100px;
+    bottom:-6vw;
+    left:-5vw;
     z-index: 100;
+    width: 18%;
 }
 
 .vektor_camera{
-    top:-120px;
-    right:-50px;
+    top:-7vw;
+    right:-2vw;
 }
 
 .vektor_left_bawah{
@@ -56,19 +92,23 @@
     bottom:0;
     right:0;
 }
+.index{
+    z-index: 1000;
+}
 
 /* section 1 */
 
 .section-1{
     background-color: #B9E3EC;
-    padding: 100px 0px 300px 0px;
+    padding: 10vw 0px 20vw 0px;
 }
 
 
 .subjudul{
     color: #2D4FAE;
-    font-size: 30px;
+    font-size: 2.5vw;
     letter-spacing: 3px;
+    margin:0;
 }
 
 .section-1 .subjudul{
@@ -77,37 +117,51 @@
 
 .yellow_shadow{
     color:#3754A2;
-    text-shadow: 4px 4px 0px #F3D060;
+    text-shadow: 0.3vw 0.3vw 0px #F3D060;
 }
 
 .judul{
-    font-size: 90px;
+    font-size: 7vw;
 }
 
 .umn_2022{
-    font-size: 80px;
+    font-size: 5vw;
 }
 
 /* section 2 */
 
 .section-2{
     background-color: #F1D15E;
-    padding:60px 0px 400px 0px;
+    padding:3vw 0px 23vw 0px;
+}
+
+.mobile{
+    display: none;
 }
 
 .section-2 .judul{
     color:#3754A2;
-    text-shadow: 6px 4px 0px #B9E3EC;
+    text-shadow: 0.4vw 0.3vw 0px #B9E3EC;
 }
 
 .section-2 .subjudul{
     letter-spacing: 5px;
 }
 
+
+.section-2 .vektor_left{
+    width: 8vw;
+}
+
+.section-2 .vektor_right{
+    width: 8vw;
+}
+
 .box_annoucement{
     background-color: white;
     width: 80%;
     border-radius: 10px;
+    z-index: 101;
 }
 
 .box_annoucement_content{
@@ -115,17 +169,18 @@
     border-radius:10px;
 }
 
-.box_annoucement_content h2{
-    color:#646464;
-}
-
 .box_annoucement_content p{
     color:rgba(0,0,0,0.6);
     width: 30%;
 }
 
+.box_annoucement_content h1{
+    width: 80%;
+    font-size: 3vw;
+}
+
 .section-2 button{
-    background-color: #7885A9;
+    background-color: #3654A3;
     color:white;
 }
 
@@ -133,7 +188,7 @@
 .section-3{
     background-color:#3654A3;
     margin-top: -50px;
-    padding:6px 0px 300px 0px;
+    padding:6px 0px 20vw 0px;
     z-index: 1000;
 }
 
@@ -144,8 +199,8 @@
 }
 
 .section-3 .circle{
-    width: 20px;
-    height: 20px;
+    width: 1vw;
+    height: 1vw;
     border-radius: 50%;
 }
 
@@ -157,7 +212,7 @@
 .section-3 .image-content{
     background-image:url('../Images/Homepage/4.png');
     width: 100%;
-    height: 60vh;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -178,7 +233,7 @@
 
 .section-4{
     background-color: #B9E3EC;
-    padding:10px 0px 220px 0px;
+    padding:3vw 0px 25vw 0px;
 }
 
 .section-4 .subjudul{
@@ -194,4 +249,94 @@
 .section-4 button{
     background-color: #2D4FAE;
     color:white;
+}
+
+.vektor_9{
+    width: 9%;
+}
+
+.section-4 .logo{
+    width: 40%;
+}
+
+@media(max-width:769px){
+    .mobile{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .judul{
+        font-size: 9vw;
+    }
+
+    .section-4 p{
+        width: 80%;
+        font-size: 3vw;
+        text-align: justify;
+        color:#2D4FAE;
+    }
+    
+    .section-2 .subjudul {
+        letter-spacing: 2px;
+    }
+
+    .bell{
+        width: 15%;
+        z-index: 1000;
+    }
+    .bg-left{
+        width: 15%;
+        top: 55vw;
+    }
+    
+    .bg-right{
+        width: 15%;
+        top: 60vw;
+    }
+
+    .box_annoucement_content p{
+        color:rgba(0,0,0,0.6);
+        width: 80%;
+        font-size: 2vw;
+    }
+    
+    .box_annoucement_content h1{
+        font-size: 5vw;
+    }
+
+    .maskot_announcement{
+        width: 30%;
+    }
+
+    .section-3{
+        margin-top: 0px;
+        
+    }
+    
+    .section-3 .circle{
+        width: 3vw;
+        height: 3vw;
+    }
+
+   
+    .vektor_9{
+        width: 15%;
+    }
+    
+    .section-4 .logo{
+        width: 50%;
+    }
+    
+    .section-4 .subjudul{
+        letter-spacing: 0.4px;
+        font-size: 6vw;
+    }
+
+    .droplet_about{
+        top: 0.5vw;
+        width: 70%;
+    }
 }

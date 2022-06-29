@@ -8,6 +8,19 @@ footer{
     padding:0px 70px;
 }
 
+footer .logo{
+    width: 30%;
+}
+
+footer h1{
+    font-size: 2vw;
+    width: 100%;
+}
+
+.mobile{
+    display: none;
+}
+
 footer a{
     text-decoration: none;
 }
@@ -21,9 +34,35 @@ footer a{
 }
 
 @media(max-width:769px){
-    footer a{
-        width: 50px !important;
-        height: 50px !important;
-        margin-top:10px !important;
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    footer .logo{
+        width: 20%;
+    }
+    footer{
+        padding:0px 10px;
+    }
+
+    footer p{
+        margin:0;
+    }
+
+    footer h1{
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    footer h4 a{
+        font-size: 3vw;
+    }
+
+    .address{
+        font-size: 14px;
     }
 }
