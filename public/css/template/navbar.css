@@ -162,6 +162,18 @@ header .box-nav{
     padding-left: 10%;
 }
 
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.index{
+    z-index: 1000;
+}
+
 @media (max-width:850px){
     .nav-menu{
         width: 70%;

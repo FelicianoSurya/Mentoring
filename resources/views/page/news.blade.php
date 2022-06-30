@@ -136,8 +136,5 @@
           </div>
         </div>
         {{-- END OF SECTION-5 --}}
-
-        {{-- ANOTHER SECTION --}}
-        @include('template.footer')
     </div>
 @endsection

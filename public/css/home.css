@@ -1,12 +1,4 @@
 /* vektor */
-.absolute{
-    position: absolute;
-}
-
-.relative{
-    position: relative;
-}
-
 .bg-left{
     top:85vw;
     z-index: 100;
@@ -91,9 +83,6 @@
 .vektor_right_bawah{
     bottom:0;
     right:0;
-}
-.index{
-    z-index: 1000;
 }
 
 /* section 1 */
@@ -320,8 +309,7 @@
         width: 3vw;
         height: 3vw;
     }
-
-   
+    
     .vektor_9{
         width: 15%;
     }

@@ -1,0 +1,377 @@
+
+.bawah-kiri{
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+p{
+    margin:0;
+}
+.torch{
+    top:0;
+    left:0;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.body{
+    background-color: #B9E3EC;
+}
+
+.bg_divisi{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mentor{
+    background-image: url(../../Images/Committee/bg_divisi/BG_Mentor.png);
+}
+
+.cc{
+    background-image: url(../../Images/Committee/bg_divisi/BG_CC.png);
+}
+
+.admin{
+    background-image: url(../../Images/Committee/bg_divisi/BG_Admin.png);
+}
+
+.accom{
+    background-image: url(../../Images/Committee//bg_divisi/BG_Akomodasi.png);
+}
+
+.web{
+    background-image: url(../../Images//Committee/bg_divisi/BG_Web.png);
+}
+
+.ec{
+    background-image: url(../../Images//Committee/bg_divisi/BG_EC.png);
+}
+
+.dokum{
+    background-image: url(../../Images//Committee/bg_divisi/BG_Dokum.png);
+}
+
+.visual{
+    background-image: url(../../Images//Committee/bg_divisi/BG_Visual.png);
+}
+
+.prmr{
+    background-image: url(../../Images//Committee/bg_divisi/BG_PRMR.png);
+}
+
+.research{
+    background-image: url(../../Images//Committee/bg_divisi/BG_Research.png);
+}
+
+.insurer{
+    background-image: url(../../Images//Committee/bg_divisi/BG_Insurer.png);
+}
+
+.cc h1{
+    margin:0;
+    color:#C18200;
+}
+
+.admin h1{
+    margin:0;
+    color:#4C7345;
+}
+
+.accom h1{
+    margin:0;
+    color:#055A42;
+}
+
+.web h1{
+    margin:0;
+    color:#0084C2;
+}
+
+.ec h1{
+    margin:0;
+    color:#2D4FAE;
+}
+
+.dokum h1{
+    margin:0;
+    color:#694CA4;
+}
+
+.visual h1{
+    margin:0;
+    color:#D85993;
+}
+
+.prmr h1{
+    margin:0;
+    color:#DD4F54;
+}
+
+.research h1{
+    margin:0;
+    color:#825200;
+}
+
+.insurer h1{
+    margin:0;
+    color:#4A4A4A;
+}
+
+.judul{
+    font-size: 5.3vw;
+    text-shadow: 0 0 10px #fff;
+}
+
+.section-2 .content-desc{
+    width: 70%;
+    font-size: 1.2vw;
+}
+
+.mentor h1{
+    margin:0;
+    color:#9F421A;
+}
+
+.close{
+    border-radius: 0px 0px 20px 20px;
+    color:white;
+}
+
+.close_mentor{
+    background-color: #9F421A;
+}
+
+.close_cc{
+    background-color: #C18200;
+}
+
+.close_admin{
+    background-color: #4C7345;
+}
+
+.close_accom{
+    background-color: #055A43;
+}
+
+.close_web{
+    background-color: #0084C2;
+}
+
+.close_ec{
+    background-color: #2D4FAE;
+}
+
+.close_dokum{
+    background-color: #694CA4;
+}
+
+.close_visual{
+    background-color: #D85993;
+}
+
+.close_prmr{
+    background-color: #DD4F54;
+}
+
+.close_research{
+    background-color: #825200;
+}
+
+.close_insurer{
+    background-color: #4A4A4A;
+}
+
+.close p{
+    width: 100%;
+    text-align: center;
+    margin:0;
+}
+
+.x_button{
+    width: 30%;
+}
+
+.content-mentor{
+    background-color: #DE702C;
+}
+
+.content-cc{
+    background-color: #F1A300;
+}
+
+.content-admin{
+    background-color: #AEE7A2;
+}
+
+.content-accom{
+    background-color: #49DCB2;
+}
+
+.content-web{
+    background-color: #0E9CDA;
+}
+
+.content-ec{
+    background-color: #B9D5FF;
+}
+
+.content-dokum{
+    background-color: #D7CDFE;
+}
+
+.content-visual{
+    background-color: #FFD4E8;
+}
+
+.content-prmr{
+    background-color: #FFC6C8;
+}
+
+.content-research{
+    background-color: #FBE2C0;
+}
+
+.content-insurer{
+    background-color: #DADADA;
+}
+
+.close-btn{
+    background-color:rgba(109,109,109, 0.48);
+}
+
+.clickdown{
+    cursor: pointer;
+    background:transparent;
+    border:none;
+    color:white;
+}
+
+.clickdown:hover{
+    color:#FFBE82;
+}
+
+.box-kelompok{
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10vw;
+    z-index: 100;
+}
+
+.shadow-mentor{
+    box-shadow: 10px 10px 0px 3px #FFBE82;
+}
+
+.shadow-cc{
+    box-shadow: 10px 10px 0px 3px #FFEB49;
+}
+
+.shadow-admin{
+    box-shadow: 10px 10px 0px 3px #5CC647;
+}
+
+.shadow-accom{
+    box-shadow: 10px 10px 0px 3px #5BD8FF;
+}
+
+.shadow-ec{
+    box-shadow: 10px 10px 0px 3px #68A4FF;
+}
+
+.shadow-dokum{
+    box-shadow: 10px 10px 0px 3px #9E87FB;
+}
+
+.shadow-visual{
+    box-shadow: 10px 10px 0px 3px #FF7BBA;
+}
+
+.shadow-prmr{
+    box-shadow: 10px 10px 0px 3px #FF7678;
+}
+
+.shadow-research{
+    box-shadow: 10px 10px 0px 3px #FFC16C;
+}
+
+.shadow-insurer{
+    box-shadow: 10px 10px 0px 3px #939393;
+}
+
+.shadow-accom{
+    box-shadow: 10px 10px 0px 3px #1DEEB2;
+}
+
+.image-ketua{
+    margin-top: -8vw;
+    width: 15vw;
+}
+
+
+.image-anggota{
+    margin-top: -7vw;
+    width: 30vw;
+}
+
+.nama_ketua{
+    font-size: 2vw;
+}
+
+.list_anggota p{
+    font-size: 1vw;
+}
+
+.content_divisi .logo{
+    width: 20%;
+}
+
+.image_logo_divisi{
+    width: 50%;
+}
+
+.mentor .image_logo_divisi{
+    width: 35%;
+}
+
+.cc .image_logo_divisi{
+    width: 90%;
+}
+
+.admin .image_logo_divisi{
+    width: 50%;
+}
+
+@media(max-width:769px){
+    .image-ketua{
+        margin-top:0;
+    }
+
+    .image-anggota{
+        margin-top:0;
+        width: 30vw;
+    }
+    
+    .list_anggota p{
+        font-size: 1.5vw;
+    }
+
+    .x_button{
+        width: 50%;
+    }
+
+    .content_divisi .logo{
+        width: 40%;
+    }
+
+    .image_logo_divisi{
+        width: 50%;
+    }
+
+    .section-2 .content-desc{
+        width: 100%;
+        font-size: 2vw;
+    }
+}
+

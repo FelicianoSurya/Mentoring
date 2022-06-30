@@ -22,10 +22,10 @@
         <div class="nav-menu-container container">
             <div class="nav-menu bold fs-4 py-2"><a href="/">Home</a></div>
             <div class="nav-menu bold fs-4 py-2"><a href="#">Announcements</a></div>
-            <div class="nav-menu bold fs-4 py-2"><a href="#">About us</a></div>
-            <div class="nav-menu lights fs-4 py-2"><a href="#">Values</a></div>
-            <div class="nav-menu lights fs-4 py-2"><a href="#">Committee</a></div>
-            <div class="nav-menu bold fs-4 py-2"><a href="#">News</a></div>
+            <div class="nav-menu bold fs-4 py-2"><a href="/about-us">About us</a></div>
+            <div class="nav-menu lights fs-4 py-2"><a href="/values">Values</a></div>
+            <div class="nav-menu lights fs-4 py-2"><a href="/committee">Committee</a></div>
+            <div class="nav-menu bold fs-4 py-2"><a href="/news">News</a></div>
             <div class="nav-menu bold fs-4 py-2"><a href="#">Gallery</a></div>
             </div>
     </div>

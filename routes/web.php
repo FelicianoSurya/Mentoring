@@ -27,3 +27,7 @@ Route::get('/about-us', function () {
 });
 
 Route::get('/news', [Controller::class, 'news'])->name('news');
+
+Route::get('/committee', function(){
+    return view('page.committee');
+});

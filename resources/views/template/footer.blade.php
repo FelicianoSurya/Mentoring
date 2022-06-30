@@ -16,11 +16,12 @@
         </div>
         <div class="col-12 px-lg-5 px-3 col-lg-2 mt-3 mt-lg-0 row">
             <h3 class="col-lg-12 bold">Explore Us</h3>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href=""><h5>About</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href=""><h5>Announcements</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href=""><h5>News</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href=""><h5>Gallery</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href=""><h5>Committee</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/"><h5>Home</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/about-us"><h5>About</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h5>Announcements</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/news"><h5>News</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h5>Gallery</h5></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/committee"><h5>Committee</h5></a>
         </div>
         <div class="col-12 px-lg-5 px-3 mt-lg-0 mt-4 col-lg-4 d-flex flex-column">
             <h3 class="bold">Address</h3>
