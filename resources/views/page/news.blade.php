@@ -19,8 +19,8 @@
                 </div>
                 
                 <div class="title col-md-6">
-                    <h1 class="content-title text-start">This is<br>Our Journey</h1>
-                    <p class="content-desc text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nulla lectus ut nisl eget mus neque lacus risus. Elementum, egestas amet, ultrices libero amet fermentum, aliquam. Sed fermentum amet enim massa.</p>
+                    <h1 class="content-title">This is<br>Our Journey</h1>
+                    <p class="content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nulla lectus ut nisl eget mus neque lacus risus. Elementum, egestas amet, ultrices libero amet fermentum, aliquam. Sed fermentum amet enim massa.</p>
                 </div>
     
                 <h1 class="title-2">NEWS</h1>
@@ -57,11 +57,11 @@
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <img src="{{ asset('Images/News/Left_Button.png') }}" class="carousel-control-prev-icon prev-news" aria-hidden="true">
+                  <img src="{{ asset('Images/News/Left_Button.png') }}" class="carousel-control-prev-icon arrow-news" aria-hidden="true">
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <img src="{{ asset('Images/News/Right_Button.png') }}" class="carousel-control-next-icon next-news" aria-hidden="true">
+                  <img src="{{ asset('Images/News/Right_Button.png') }}" class="carousel-control-next-icon arrow-news" aria-hidden="true">
                   <span class="visually-hidden">Next</span>
                 </button>
                 
@@ -119,19 +119,19 @@
 
           <div class="box-memory text-center">
             <div class="box-memory-hover z-5 box-memory-1">
-              <button class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-4 box-memory-2">
-              <button class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-3 box-memory-3">
-              <button class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-2 box-memory-4">
-              <button class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-1 box-memory-5">
-              <button class="btn btn-warning position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
           </div>
         </div>
