@@ -2,6 +2,15 @@
     font-size: 90px;
 }
 
+@media screen and (max-width: 1200px){
+    .judul{
+        font-size: 50px;
+    }
+}
+
+
+
+
 .umn_2022{
     color: #F3D060;
 }
@@ -20,14 +29,16 @@
 
 .bg1{
     z-index: 2;
+    top: 0;
+    left: 0;
 }
 
 .bg2{
     z-index: 1;
-    top: 70vw;
+    top: 100vw;
 }
 
-.content{
+.konten{
     z-index: 100;
 }
 
@@ -44,16 +55,15 @@
 
 .section2{
     background-color: #F3D060;
-}
-
-.section2 .content{
-    top: 30vw;
+    padding-top: 30vw;
 }
 
 .section2 .droplet{
-    width: 45vw;
+    width: 40vw;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
+    top: -5vw ;
 }
 
 .nilai5c{
@@ -62,12 +72,8 @@
 }
 
 .nilai5c:hover{
-    border: solid 6px #c6a4a6;
-    border-radius: 50% ;
-}
-
-.nilai5c:focus{
-    border: solid 6px #d94545;
+    border: solid 6px #F3D060;
+    outline: solid 10px rgba(255, 255, 255, 0.66);
     border-radius: 50% ;
 }
 
@@ -129,4 +135,24 @@
 
 .text-box .position-customerdelight{
     top: -29vw;
+}
+
+.active{
+    border: solid 6px #F3D060;
+    outline: solid 10px #E3E8FF;
+    border-radius: 50% ;
+    filter: drop-shadow(0px 0px 20px #ffffff);
+}
+
+@media screen and (max-width: 576px){
+    .section1 .maskot{
+        top: 110vw;
+    }
+    .section2{
+        padding-top: 60vw;
+    }
+
+    .section2 .droplet{
+        width: 80vw;
+    }
 }
