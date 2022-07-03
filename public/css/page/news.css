@@ -26,7 +26,7 @@
     z-index: 1;
 }
 .content-title{
-    font-family: 'Mulish_bold';
+    font-family: 'Mulish_black';
     font-size: 98px;
 
     color: #2D4FAE;
@@ -113,9 +113,13 @@
     }
     .content-desc{
         font-size: 12px;
+        text-align: justify;
     }
     .title-2, .title-4, .title-5{
         font-size: 60px;
+    }
+    .title-2{
+        text-shadow: 3px 3px 0px #D94545;
     }
 }
 
@@ -130,6 +134,7 @@
     }
     .content-desc{
         font-size: 12px;
+        text-align: justify;
     }
     .title{
         margin-top: 200px;
@@ -293,7 +298,8 @@
         bottom: -150px;
     }
     .content-news{
-        font-size: 16px;
+        margin: 300px 5vw 0 5vw;
+        font-size: 5vw;
     }
     .arrow-news{
         width: 25px;
@@ -449,6 +455,12 @@
     right: 0;
 }
 
+@media screen and (min-width: 1300px){
+    .trail-4{
+        bottom: -400px;
+    }
+}
+
 @media screen and (max-width: 985px) {
     .trail-4{
         bottom: -300px;
@@ -543,10 +555,12 @@
 }
 
 .see-more{
-    font-family: 'Mulish';
+    font-family: 'Mulish_bold';
     margin: 2.5% 0;
     padding: 1% 0;
     width: 20%;
+    background-color: #2D4FAE;
+    color: white;
 }
 
 @media screen  and (max-width: 768px) {
@@ -705,6 +719,12 @@
     bottom: 0;
 }
 
+.btn-learnmore{
+    font-family: 'Mulish_bold';
+    background-color: #F0D162;
+    color:#2D4FAE;
+}
+
 .box-memory-hover:hover{
     border: 10px solid #F36C21;
     z-index: 9;
@@ -801,6 +821,9 @@
     .section-5{
         padding-bottom: 500px;
     }
+    .box-memory-hover:hover{
+        border: 6px solid #F36C21;
+    }
 }
 
 @media screen and (max-width: 530px) {
@@ -812,7 +835,7 @@
     }
     .btn-learnmore{
         font-size: 7px;
-        padding: 0 10px;
+        white-space: normal;
     }
     .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
         height: 250px;
@@ -826,6 +849,7 @@
     }
     .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
         height: 200px;
+        width: 35vw;
     }
     .section-5{
         padding-bottom: 400px;
@@ -836,12 +860,6 @@
     .title-5{
         text-shadow: 2px 2px 0px #D94545;
         font-size: 40px;
-    }
-    .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
-        height: 150px;
-    }
-    .section-5{
-        padding-bottom: 300px;
     }
 }
 /* END OF SECTION-5 */

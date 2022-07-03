@@ -23,6 +23,11 @@
     src: url('../../fonts/Mulish/Mulish-Medium.ttf');
 }
 
+@font-face{
+    font-family: Mulish_black;
+    src: url('../../fonts/Mulish/Mulish-Black.ttf');
+}
+
 .bold{
     font-family: Mulish_bold;
 }
