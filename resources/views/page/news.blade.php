@@ -104,7 +104,7 @@
               <img src="{{ asset('Images/News/Frame 19.png') }}" class="news-child">
               <img src="{{ asset('Images/News/Frame 19.png') }}" class="news-child left-img">
               <img src="{{ asset('Images/News/Frame 19.png') }}" class="news-child">
-              <button class="btn btn-primary see-more">See More</button>
+              <button class="btn btn-seemore see-more">See More</button>
             </div>
 
           </div>
@@ -119,19 +119,19 @@
 
           <div class="box-memory text-center">
             <div class="box-memory-hover z-5 box-memory-1">
-              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-4 box-memory-2">
-              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-3 box-memory-3">
-              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-2 box-memory-4">
-              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
             <div class="box-memory-hover z-1 box-memory-5">
-              <button class="btn btn-warning btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
+              <button class="btn btn-learnmore position-absolute bottom-0 start-50 translate-middle-x mb-4">Learn More</button>
             </div>
           </div>
         </div>
