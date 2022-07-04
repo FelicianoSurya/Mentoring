@@ -121,7 +121,8 @@ p{
 
 .judul{
     font-size: 5.3vw;
-    text-shadow: 0 0 10px #fff;
+    /* text-shadow: 5px 5px 0 #fff , -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff; */
+    text-shadow: 0 0 20px #fff;
 }
 
 .section-2 .content-desc{
@@ -372,6 +373,14 @@ p{
     .section-2 .content-desc{
         width: 100%;
         font-size: 2vw;
+    }
+
+    .our-team{
+        font-size: 10px;
+    }
+
+    .down-team{
+        width: 40%;
     }
 }
 

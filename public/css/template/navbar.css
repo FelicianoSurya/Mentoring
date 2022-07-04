@@ -32,7 +32,7 @@ header .box-nav{
 
 #nav-icon3{
     top: 0;
-    right: 0;
+    right: -10vw;
     background-color: transparent;
     margin-top: 65px;
     /* margin-left: 100px; */
@@ -174,27 +174,39 @@ header .box-nav{
     z-index: 1000;
 }
 
+.logo-header{
+    width: 5vw;
+}
+
 @media (max-width:850px){
     .nav-menu{
-        width: 70%;
+        width: 100%;
         text-align: start;
         padding-left: 10%;
     }
     .nav-main{
         width: 50%;
     }
+
+    #nav-icon3{
+        right: -30px;
+      }
     
 }
 
 @media(max-width:769px){
     header .box-nav{
-        width: 50%;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 20px !important;
     }
 }
 
 @media (max-width:550px){
     .nav-menu{
-        width: 70%;
+        width: 100%;
         text-align: start;
         padding-left: 10%;
     }
@@ -203,6 +215,38 @@ header .box-nav{
     }
 
     header .box-nav{
-        width: 50%;
+        width: 100%;
+    }
+    
+    .logo-header{
+        width: 14vw;
+    }
+    
+    header h1{
+        font-size: 20px !important;
+    }
+
+    #nav-icon3{
+        top: -5px;
+        right: -30px;
+        background-color: transparent;
+        /* margin-left: 100px; */
+        width: 25px;
+        position: relative;
+        margin-right: 0;
+      }
+      
+    #nav-icon3 span{
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: white;
+        opacity: 1;
+        right: 0;
+    }
+    
+    header h1{
+        font-size: 15px !important;
     }
 }

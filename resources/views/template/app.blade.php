@@ -7,9 +7,11 @@
     <!-- Page Title -->
     <title>Mentoring UMN</title>
     <!-- Mentoring Icon -->
+    <link rel="icon" type="image/png" href="{{ asset('Images/Homepage/logo.png') }}">
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/template/app.css') }}">
@@ -44,7 +46,7 @@
     <!-- Sweetalert -->
     <script src="{{ asset('js/cms/base/sweetalert/sweetalert.js') }}"></script>
     <!-- Swiper -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> 
 
     @include('template.footer')
     <script>

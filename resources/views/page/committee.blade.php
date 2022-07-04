@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">MENTOR</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -31,8 +31,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/Mentor/content_logo_mentor.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-mentor p-lg-4 p-2 row">
@@ -94,10 +95,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_mentor py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_mentor py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_mentor" data-bs-toggle="collapse" data-bs-target="#mentor" aria-expanded="false" aria-controls="mentor">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -110,7 +111,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">CONTENT CREATOR</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -123,8 +124,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/CC_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-cc p-lg-6 p-2 row">
@@ -143,10 +145,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_cc py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_cc py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_cc" data-bs-toggle="collapse" data-bs-target="#cc" aria-expanded="false" aria-controls="cc">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -159,7 +161,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">ADMINISTRATION</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -171,8 +173,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
-                <img class="logo" src="{{ asset('Images/Committee/logo_divisi/Logo_Admin.png') }}" alt="">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
+                <img class="logo" src="{{ asset('Images/Committee/logo_content/Admin_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-admin p-lg-6 p-2 row">
@@ -191,10 +194,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_admin py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_admin py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_admin" data-bs-toggle="collapse" data-bs-target="#admin" aria-expanded="false" aria-controls="admin">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -207,7 +210,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">ACCOMODATION</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -219,8 +222,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
-                <img class="logo" src="{{ asset('Images/Committee/logo_divisi/Logo_Akomodasi.png') }}" alt="">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
+                <img class="logo" src="{{ asset('Images/Committee/logo_content/Accomodation_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-accom p-lg-6 p-2 row">
@@ -239,10 +243,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_accom py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_accom py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_accom" data-bs-toggle="collapse" data-bs-target="#accom" aria-expanded="false" aria-controls="accom">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -254,7 +258,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">WEBSITE</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -266,8 +270,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/Web_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-web p-lg-6 p-2 row">
@@ -286,10 +291,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_web py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_web py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_web" data-bs-toggle="collapse" data-bs-target="#web" aria-expanded="false" aria-controls="web">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -301,7 +306,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">EXECUTIVE COMMITTEE</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -313,8 +318,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/EC_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-ec p-lg-6 p-2 row">
@@ -333,10 +339,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_ec py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_ec py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_ec" data-bs-toggle="collapse" data-bs-target="#ec" aria-expanded="false" aria-controls="ec">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
 
@@ -349,7 +355,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">DOCUMENTATION</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -361,8 +367,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/Dokum_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-dokum p-lg-6 p-2 row">
@@ -381,10 +388,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_dokum py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_dokum py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_dokum" data-bs-toggle="collapse" data-bs-target="#dokum" aria-expanded="false" aria-controls="dokum">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
         {{-- VISUAL --}}
@@ -396,7 +403,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">VISUAL</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -408,8 +415,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/Visual_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-visual p-lg-6 p-2 row">
@@ -428,10 +436,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_visual py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_visual py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_visual" data-bs-toggle="collapse" data-bs-target="#visual" aria-expanded="false" aria-controls="visual">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
         {{-- PR & MP --}}
@@ -443,7 +451,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">PR & MEDIA PARTNER</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -455,8 +463,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/PRMR_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-prmr p-lg-6 p-2 row">
@@ -475,10 +484,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_prmr py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_prmr py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_prmr" data-bs-toggle="collapse" data-bs-target="#prmr" aria-expanded="false" aria-controls="prmr">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
         {{-- Research --}}
@@ -490,7 +499,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">RESEARCH</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -502,8 +511,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/Research_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-research p-lg-6 p-2 row">
@@ -522,10 +532,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_research py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_research py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_research" data-bs-toggle="collapse" data-bs-target="#research" aria-expanded="false" aria-controls="research">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
         {{-- Insurer --}}
@@ -537,7 +547,7 @@
                 </div>
                 <div class="col-8 d-flex flex-column justify-content-start">
                     <h1 class="bold judul">INSURER</h1>
-                    <p class="content-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
+                    <p class="content-desc desktop">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
                 </div>
             </div>
         </div>
@@ -549,8 +559,9 @@
                     <p class="m-0 desktop" style="color:white;">Close</p>
                 </button>
             </div>
-            <div class="mt-lg-5 mt-3 d-flex justify-content-center">
+            <div class="mt-lg-5 mt-3 d-flex flex-column align-items-center justify-content-center">
                 <img class="logo" src="{{ asset('Images/Committee/logo_content/Insurer_Logo.png') }}" alt="">
+                <p class="mobile content-desc mt-3 px-5 bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit explicabo, totam optio, ipsam veniam quaerat quia corporis repellendus laborum nam dolor fugiat, inventore impedit dolorum architecto et suscipit! Tenetur?</p>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-insurer p-lg-6 p-2 row">
@@ -569,10 +580,10 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_insurer py-1 mb-5 d-flex justify-content-center align-items-center">
+        <div class="close close_insurer py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
             <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_insurer" data-bs-toggle="collapse" data-bs-target="#insurer" aria-expanded="false" aria-controls="insurer">
-                <p class="bold">Our Teams</p>
-                <img src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
+                <p class="bold our-team">Our Teams</p>
+                <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
         </div>
     </div>
@@ -584,70 +595,70 @@
 <script>
 $(document).ready(function(){
     $("#mentor").on("hide.bs.collapse", function(){
-        $(".clickdown_mentor").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_mentor").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#mentor").on("show.bs.collapse", function(){
-        $(".clickdown_mentor").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_mentor").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#cc").on("hide.bs.collapse", function(){
-        $(".clickdown_cc").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_cc").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#cc").on("show.bs.collapse", function(){
-        $(".clickdown_cc").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_cc").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#admin").on("hide.bs.collapse", function(){
-        $(".clickdown_admin").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_admin").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#admin").on("show.bs.collapse", function(){
-        $(".clickdown_admin").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_admin").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#accom").on("hide.bs.collapse", function(){
-        $(".clickdown_accom").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_accom").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#accom").on("show.bs.collapse", function(){
-        $(".clickdown_accom").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_accom").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#web").on("hide.bs.collapse", function(){
-        $(".clickdown_web").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_web").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#web").on("show.bs.collapse", function(){
-        $(".clickdown_web").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_web").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#ec").on("hide.bs.collapse", function(){
-        $(".clickdown_ec").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_ec").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#ec").on("show.bs.collapse", function(){
-        $(".clickdown_ec").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_ec").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#dokum").on("hide.bs.collapse", function(){
-        $(".clickdown_dokum").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_dokum").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#dokum").on("show.bs.collapse", function(){
-        $(".clickdown_dokum").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_dokum").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#visual").on("hide.bs.collapse", function(){
-        $(".clickdown_visual").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_visual").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#visual").on("show.bs.collapse", function(){
-        $(".clickdown_visual").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_visual").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#prmr").on("hide.bs.collapse", function(){
-        $(".clickdown_prmr").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_prmr").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#prmr").on("show.bs.collapse", function(){
-        $(".clickdown_prmr").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_prmr").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#research").on("hide.bs.collapse", function(){
-        $(".clickdown_research").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_research").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#research").on("show.bs.collapse", function(){
-        $(".clickdown_research").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_research").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
     $("#insurer").on("hide.bs.collapse", function(){
-        $(".clickdown_insurer").html('<p class="bold">Our Teams</p><img src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
+        $(".clickdown_insurer").html('<p class="bold our-team">Our Teams</p><img class="down-team" src=' + '"{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">');
     });
     $("#insurer").on("show.bs.collapse", function(){
-        $(".clickdown_insurer").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold">Close</p>');
+        $(".clickdown_insurer").html('<img src=' + '"{{ asset('Images/Committee/Vector_arrow_up.png') }}" alt=""><p class="bold our-team">Close</p>');
     });
 });
 </script>

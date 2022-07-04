@@ -43,7 +43,7 @@
 }
 
 .vektor_bawah{
-    bottom:0;
+    bottom:-2px;
     left:0;
     width: 100%;
 }
@@ -198,8 +198,7 @@
     color:#2D4FAE;
 }
 
-.section-3 .image-content{
-    background-image:url('../Images/Homepage/4.png');
+.image-content{
     width: 100%;
     height: auto;
     border-radius: 20px;
@@ -211,6 +210,28 @@
     border-radius: 50%;
     background-color: #3654A3;
 }
+
+.swiper{
+    width: 50vw;
+}
+
+.swiper-pagination-bullet{
+    background-color: #F1D15E;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    padding:25px;
+    border-radius: 50px;
+    font-size: 15px !important;
+    background-color: #2D4FAE;
+}
+
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 20px !important;
+    color:white;
+}
+
 
 .arah p{
     font-size: 30px;
@@ -326,5 +347,9 @@
     .droplet_about{
         top: 0.5vw;
         width: 70%;
+    }
+
+    .swiper{
+        width: 80vw;
     }
 }
