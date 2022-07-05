@@ -14,14 +14,14 @@
             <p class="mt-1 mt-lg-2">Character Building Mentoring UMN merupakan kegiatan tahunan yang bersifat wajib bagi Mentee (Mahasiswa Baru UMN) dengan tujuan memperkenalkan nilai-nilai 5C UMN secara mendalam.</p>
             <h4 class="bold"><a href="" class="navy w-100" style="text-decoration:underline">See More</a></h4>
         </div>
-        <div class="col-12 px-lg-5 px-3 col-lg-2 mt-3 mt-lg-0 row">
-            <h3 class="col-lg-12 bold">Explore Us</h3>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/"><h5>Home</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/about-us"><h5>About</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h5>Announcements</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/news"><h5>News</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h5>Gallery</h5></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/committee"><h5>Committee</h5></a>
+        <div class="col-12 px-lg-5 ps-3 col-lg-2 mt-3 mt-lg-0 row">
+            <h3 class="col-lg-12 bold fs-4">Explore Us</h3>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/"><h6>Home</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/about-us"><h6>About</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Announcements</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/news"><h6>News</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Gallery</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/committee"><h6>Committee</h6></a>
         </div>
         <div class="col-12 px-lg-5 px-3 mt-lg-0 mt-4 col-lg-4 d-flex flex-column">
             <h3 class="bold">Address</h3>
@@ -31,12 +31,16 @@
             <h3 class="bold">Contact Us</h3>
             <div class="d-flex flex-lg-column">
                 <div class="d-flex align-items-center mt-3 mt-lg-2">
-                    <img src="{{ asset('Images/Footer/logo_instagram.png') }}" class="me-4">
-                    <p class="m-0 ms-3 fs-5 desktop">@mentoringumn</p>
+                    <a href="https://instagram.com/mentoringumn">
+                        <img src="{{ asset('Images/Footer/logo_instagram.png') }}" class="me-4">
+                        <p class="m-0 ms-3 fs-5 desktop">@mentoringumn</p>
+                    </a>
                 </div>
                 <div class="d-flex align-items-center mt-3">
-                    <img src="{{ asset('Images/Footer/logo_line.png') }}" class="me-4">
-                    <p class="m-0 ms-3 fs-5 desktop">@mentoring.umn</p>
+                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=mentoring.umn">
+                        <img src="{{ asset('Images/Footer/logo_line.png') }}" class="me-4">
+                        <p class="m-0 ms-3 fs-5 desktop">@mentoring.umn</p>
+                    </a>
                 </div>
                 <div class="d-flex align-items-center mt-3">
                     <img src="{{ asset('Images/Footer/logo_email.png') }}" class="me-4">

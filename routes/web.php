@@ -14,6 +14,10 @@ use App\Http\Controllers\Controller;
 |
 */
 
+Route::get('/comingsoon',function(){
+    return view('page.comingsoon');
+});
+
 Route::get('/', function () {
     return view('page.home');
 });
