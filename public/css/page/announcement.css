@@ -1,0 +1,277 @@
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+/* SECTION-1 */
+.section-1{
+    padding-top: 125px;
+    position: relative;
+    background: #BAEEFA !important;
+    /* z-index: 100; */
+    width: 100vw;
+    height: 300vw;
+}
+.bg-1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index:0;
+}
+.title-1{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: -50px;
+    z-index: 1;
+    font-family: 'Mulish_black';
+    font-size: 98px;
+    text-align: center;
+
+    color: #2D4FAE;
+    text-shadow: 6px 6px 0 #fff;
+}
+.subtitle-1{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 200px;
+    z-index: 1;
+    font-family: 'Mulish';
+    font-size: 32px;
+    text-align: center;
+
+    color: #2D4FAE;
+}
+
+.announcement-top{
+    top: 700px;
+}
+
+.news-carousel{
+    z-index:1 !important;
+    padding-top: 40px;
+}
+
+.announcement-content{
+    width: 75vw;
+    height: 35vw;
+    border-radius: 10px;
+    background-color: #F1D15E;
+}
+
+.arrow-news{
+    width: 65px;
+    height: 65px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+}
+
+.arr-left{
+    margin-left: 11.5vw;
+}
+
+.arr-right{
+    margin-right: 10vw;
+}
+
+.ann-indc{
+    bottom: -50px;
+}
+
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: grey !important;
+}
+
+.carousel-indicators .active{
+    background-color: #2D4FAE !important;
+}
+
+.announcement-inner{
+    font-family: 'Mulish_black';
+    font-size: 64px;
+    text-align: center;
+    color: #2D4FAE;
+    padding-top: 2.5vw;
+}
+
+.announcement-box{
+    width: 80vw;
+    position:absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 1vw;
+    right: 0;
+    text-align: center;
+    z-index: 0;
+}
+
+.bell{
+    position: absolute;
+    height: 5vw;
+    top: -3vw;
+    right: 17.5vw;
+    z-index:2;
+}
+
+.maskot-box{
+    position: absolute;
+    height: 20vw;
+    bottom: -10vw;
+    right: 4vw;
+    z-index:2;
+}
+
+.trail-1{
+    position: absolute;
+    top: 100vw;
+    left: 0;
+    width: 100vw;
+}
+
+.title-2{
+    position:absolute;
+    top: 125vw;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    font-family: 'Mulish_black';
+    font-size: 72px;
+    text-align: center;
+
+    color: #2D4FAE;
+    text-shadow: 6px 6px 0 #F3D060;
+}
+
+.subtitle-2{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 132vw;
+    z-index: 1;
+    font-family: 'Mulish';
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #2D4FAE;
+}
+
+.box-bottom{
+    top: 90vw;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80vw;
+    padding: 75px 0 25px 0;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.date{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    text-align: start;
+    font-family: 'Mulish';
+    font-size: 24px;
+    color: #0A203F;
+}
+
+.child-box{
+    background-color:#F1D15E;
+    margin: 0 auto;
+    width: 70vw;
+    border-radius: 10px;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.ann-title{
+    margin-left: 40%;
+    text-align: start;
+    font-family: 'Mulish_black';
+    font-size: 36px;
+    color: #000000;
+}
+
+.ann-content{
+    width: 30vw;
+    margin-left: 40%;
+    text-align: start;
+    font-family: 'Mulish';
+    font-size: 20px;
+    color: #000000;
+}
+
+.btn-open{
+    position: absolute;
+    bottom: 0;
+    right: 5vw;
+    font-family: 'Mulish_bold';
+    font-size: 21px;
+    margin: 2.5% 0;
+    padding: 1% 0;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #2D4FAE;
+    color: white;
+    z-index:3;
+}
+
+.speaker{
+    width:7.5vw;
+    position:absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left: 25%;
+    z-index:2;
+}
+
+.vector-left{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    z-index:2;
+}
+
+.vector-right{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.trail-left{
+    height:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.trail-right{
+    height:100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.bg-foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}

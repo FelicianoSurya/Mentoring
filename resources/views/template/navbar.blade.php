@@ -21,7 +21,7 @@
     <div class="nav-main d-flex flex-column">
         <div class="nav-menu-container container">
             <div class="nav-menu bold fs-4 py-2"><a href="/">Home</a></div>
-            <div class="nav-menu bold fs-4 py-2"><a href="#">Announcements</a></div>
+            <div class="nav-menu bold fs-4 py-2"><a href="/announcements">Announcements</a></div>
             <div class="nav-menu bold fs-4 py-2"><a href="/about-us">About us</a></div>
             <div class="nav-menu lights fs-4 py-2"><a href="/values">Values</a></div>
             <div class="nav-menu lights fs-4 py-2"><a href="/committee">Committee</a></div>
