@@ -13,7 +13,7 @@
         <div class="konten relative text-center">
             <img class="logo5c" src="{{asset('Images/Valuepage/Logo_5C.png')}}" />
             <h1 class="judul blue_shadow bold">VALUE MENTORING</h1>
-            <h3 class="umn_2022 medium">UMN 2022</h3>
+            <h3 class="umn_2022 medium ">UMN 2022</h3>
             <img class="maskot absolute"  src="{{asset('Images/Valuepage/Maskot_Value.png')}}" />
         </div>
     </div>
@@ -26,28 +26,24 @@
             <div>
                 <p class="arti medium d-lg-none">*click the logo to see other values</p>
             </div>
-            <div class="row mx-5">
-                <div class="col-1 d-none d-md-block">      
-                </div>
-                <div class="col-2 mr-2">
+            <div class="d-flex justify-content-center align-items-center mx-5">
+                <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c" src="{{asset('Images/Valuepage/Logo_Caring.png')}}">
                 </div>
-                <div class="col-2 mx-2">
+                <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c" src="{{asset('Images/Valuepage/Logo_Credible.png')}}">
                 </div>
-                <div class="col-2 mx-2">
+                <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c " src="{{asset('Images/Valuepage/Logo_Competent.png')}}">
                 </div>
-                <div class="col-2 mx-2">
+                <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c" src="{{asset('Images/Valuepage/Competitive.png')}}">
                 </div>
-                <div class="col-2 ml-2">
+                <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c" src="{{asset('Images/Valuepage/Logo_ Customerdelight.png')}}">
                 </div>
-                <div class="col-1 d-none d-md-block">
-                </div>
             </div>
-            <div class="row justify-content-center mt-5 nilai5c-box">
+            <div class="justify-content-center mt-5 mx-1 nilai5c-box">
                 
             </div>
         </div>
