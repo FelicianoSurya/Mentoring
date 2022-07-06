@@ -120,9 +120,11 @@ p{
 }
 
 .judul{
-    font-size: 5.3vw;
+    font-size: 5vw;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 10px #fff, 1px -1px 10px #fff, -1px 1px 10px #fff, 1px 1px 10px #fff;
     /* text-shadow: 5px 5px 0 #fff , -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff; */
-    text-shadow: 0 0 20px #fff;
+    /* text-shadow: 0 0 20px #fff; */
 }
 
 .section-2 .content-desc{

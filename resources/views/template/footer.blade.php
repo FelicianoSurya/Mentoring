@@ -30,21 +30,23 @@
         <div class="col-12 px-lg-5 px-3 col-lg-3 mt-lg-0 mt-4 d-flex flex-column">
             <h3 class="bold">Contact Us</h3>
             <div class="d-flex flex-lg-column">
-                <div class="d-flex align-items-center mt-3 mt-lg-2">
-                    <a href="https://instagram.com/mentoringumn">
-                        <img src="{{ asset('Images/Footer/logo_instagram.png') }}" class="me-4">
+                <div class="d-flex align-items-center me-lg-0 me-2 mt-3 mt-lg-2">
+                    <a href="https://instagram.com/mentoringumn" class="d-flex align-items-center mt-3 mt-lg-2 navy">
+                        <img src="{{ asset('Images/Footer/logo_instagram.png') }}">
                         <p class="m-0 ms-3 fs-5 desktop">@mentoringumn</p>
                     </a>
                 </div>
-                <div class="d-flex align-items-center mt-3">
-                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=mentoring.umn">
-                        <img src="{{ asset('Images/Footer/logo_line.png') }}" class="me-4">
+                <div class="d-flex align-items-center me-lg-0 me-2 mt-3">
+                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=mentoring.umn" class="d-flex align-items-center mt-3 mt-lg-2 navy">
+                        <img src="{{ asset('Images/Footer/logo_line.png') }}">
                         <p class="m-0 ms-3 fs-5 desktop">@mentoring.umn</p>
                     </a>
                 </div>
-                <div class="d-flex align-items-center mt-3">
-                    <img src="{{ asset('Images/Footer/logo_email.png') }}" class="me-4">
-                    <p class="m-0 ms-3 fs-5 desktop">mentoring@umn.ac.id</p>
+                <div class="d-flex align-items-center me-lg-0 me-2 mt-3">
+                    <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=mentoring.umn" class="d-flex align-items-center mt-3 mt-lg-2 navy">
+                        <img src="{{ asset('Images/Footer/logo_email.png') }}" class="d-flex align-items-center mt-lg-2">
+                        <p class="m-0 ms-3 fs-5 desktop">mentoring@umn.ac.id</p>
+                    </a>
                 </div>
             </div>
         </div>
