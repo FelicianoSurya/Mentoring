@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Announcement;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -13,5 +14,11 @@ class Controller extends BaseController
 
     public function news(){
         return view('page.news');
+    }
+    public function announcement(){
+        return view('page.announcement',[
+            'announcements' => Announcement::All(),
+            'dates' => Announcement::distinct('date')->pluck('date'),
+        ]);
     }
 }

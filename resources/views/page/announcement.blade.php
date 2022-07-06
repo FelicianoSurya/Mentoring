@@ -2,6 +2,7 @@
 
 @section('custom-css')
     <link rel="stylesheet" href="{{ asset('css/page/announcement.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/template/modal.css') }}">
 @endsection
 
 @section('content')
@@ -58,66 +59,77 @@
         <h1 class="title-2">PREVIOUS</h1>
         <p class="subtitle-2">ANNOUNCEMENT</p>
 
+        @foreach($dates as $date)
         <div class="box-bottom relative">
-            <p class="date">Friday, 2 May 2022</p>
+            <p class="date">{{ $date }}</p>
+            @foreach($announcements->where('date', $date) as $announcement)
             <div class="child-box relative overflow-hidden">
-                <h1 class="ann-title">Lorem Ipsum</h1>
-                <p class="ann-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <a href="#"><button class="btn btn-open">Open</button></a>
+                <h1 class="ann-title">{{ $announcement->title }}</h1>
+                <p class="ann-content">{{ $announcement->subtitle }}</p>
+                <button id="moreData{{ $announcement->id }}"class="btn btn-open">Open</button>
                 <img class="speaker" src="{{ asset('Images/Announcement/Speaker.png') }}">
                 <img class="vector-left" src="{{ asset('Images/Announcement/Vector_left.png') }}">
                 <img class="vector-right" src="{{ asset('Images/Announcement/Vector_right.png') }}">
                 <img class="trail-left" src="{{ asset('Images/Announcement/Trail_left.png') }}">
                 <img class="trail-right" src="{{ asset('Images/Announcement/Trail_right.png') }}">
             </div>
-            <div class="child-box relative overflow-hidden">
-                <h1 class="ann-title">Lorem Ipsum</h1>
-                <p class="ann-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <a href="#"><button class="btn btn-open">Open</button></a>
-                <img class="speaker" src="{{ asset('Images/Announcement/Speaker.png') }}">
-                <img class="vector-left" src="{{ asset('Images/Announcement/Vector_left.png') }}">
-                <img class="vector-right" src="{{ asset('Images/Announcement/Vector_right.png') }}">
-                <img class="trail-left" src="{{ asset('Images/Announcement/Trail_left.png') }}">
-                <img class="trail-right" src="{{ asset('Images/Announcement/Trail_right.png') }}">
-            </div>
+            @endforeach
         </div>
+        @endforeach
 
-        <div class="box-bottom relative">
-            <p class="date">Monday, 2 April 2022</p>
-            <div class="child-box relative overflow-hidden">
-                <h1 class="ann-title">Lorem Ipsum</h1>
-                <p class="ann-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <a href="#"><button class="btn btn-open">Open</button></a>
-                <img class="speaker" src="{{ asset('Images/Announcement/Speaker.png') }}">
-                <img class="vector-left" src="{{ asset('Images/Announcement/Vector_left.png') }}">
-                <img class="vector-right" src="{{ asset('Images/Announcement/Vector_right.png') }}">
-                <img class="trail-left" src="{{ asset('Images/Announcement/Trail_left.png') }}">
-                <img class="trail-right" src="{{ asset('Images/Announcement/Trail_right.png') }}">
-            </div>
-            <div class="child-box relative overflow-hidden">
-                <h1 class="ann-title">Lorem Ipsum</h1>
-                <p class="ann-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <a href="#"><button class="btn btn-open">Open</button></a>
-                <img class="speaker" src="{{ asset('Images/Announcement/Speaker.png') }}">
-                <img class="vector-left" src="{{ asset('Images/Announcement/Vector_left.png') }}">
-                <img class="vector-right" src="{{ asset('Images/Announcement/Vector_right.png') }}">
-                <img class="trail-left" src="{{ asset('Images/Announcement/Trail_left.png') }}">
-                <img class="trail-right" src="{{ asset('Images/Announcement/Trail_right.png') }}">
-            </div>
-            <div class="child-box relative overflow-hidden">
-                <h1 class="ann-title">Lorem Ipsum</h1>
-                <p class="ann-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                <a href="#"><button class="btn btn-open">Open</button></a>
-                <img class="speaker" src="{{ asset('Images/Announcement/Speaker.png') }}">
-                <img class="vector-left" src="{{ asset('Images/Announcement/Vector_left.png') }}">
-                <img class="vector-right" src="{{ asset('Images/Announcement/Vector_right.png') }}">
-                <img class="trail-left" src="{{ asset('Images/Announcement/Trail_left.png') }}">
-                <img class="trail-right" src="{{ asset('Images/Announcement/Trail_right.png') }}">
+        {{-- Modal --}}
+        @foreach ($announcements as $announcement)
+        <div id="moreDataModal{{ $announcement->id }}" class="data-modal">
+            <div class="data-modal-content">
+                <div class="data-modal-header">
+                    <span class="data-close{{ $announcement->id }} data-close">&times;</span>
+                    <h2>
+                        {{ $announcement->title }}
+                    </h2>
+                </div>
+                <p class="text-start date-modal mb-2">{{ $announcement->date }}</p>
+                <p class="text-content">{{ $announcement->content }}</p>
             </div>
         </div>
+        @endforeach
 
         <img class="bg-foot" src="{{ asset('Images/Announcement/BG_Announcement2.png') }}">
     </div>
     {{-- END OF SECTION 1 --}}
 </div>
+@endsection
+
+@section('custom-js')
+<script>
+    @foreach ($announcements as $announcement)
+        // Get the modal
+        var modal{{ $announcement->id }} = document.getElementById("moreDataModal{{ $announcement->id }}");
+
+        // Get the button that opens the modal
+        var btn{{ $announcement->id }} = document.getElementById("moreData{{ $announcement->id }}");
+
+        // Get the <span> element that closes the modal
+        var span{{ $announcement->id }} = document.getElementsByClassName("data-close{{ $announcement->id }}")[0];
+
+        // When the user clicks on the button, open the modal
+        btn{{ $announcement->id }}.onclick = function() {
+            modal{{ $announcement->id }}.style.display = "block";
+            $("body").addClass("modal-open");
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span{{ $announcement->id }}.onclick = function() {
+            modal{{ $announcement->id }}.style.display = "none";
+            $("body").removeClass("modal-open")
+        }
+
+        //When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal{{ $announcement->id }}) {
+                modal{{ $announcement->id }}.style.display = "none";
+                $("body").removeClass("modal-open")
+            }
+        }
+    @endforeach
+</script>
 @endsection
