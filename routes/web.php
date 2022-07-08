@@ -36,4 +36,8 @@ Route::get('/committee', function(){
     return view('page.committee');
 });
 
+Route::get('/gallery', function(){
+    return view('page.gallery');
+});
+
 Route::get('/announcements', [Controller::class, 'announcement']);

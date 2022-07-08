@@ -1,3 +1,8 @@
+body{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 .about{
     overflow: hidden;
 }
@@ -31,6 +36,10 @@
     top: 7vw;
 }
 
+.z-98{
+    z-index: 98;
+}
+
 .z-100{
     z-index: 100;
 }
@@ -55,16 +64,37 @@
     text-shadow: .5vw .4vw #b9e3ec;
 }
 
+.block{
+    content: "";
+    width: 100vw;
+    min-height: 200vh;
+}
+
+.bg-darkblue{
+    top: -10px;
+    left: 0;
+    min-height: 5vh;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    background-color: #3654a3;
+}
+
 .bg-black{
     content: "";
     background-color: rgba(0,0,0,0.5);
-    position: absolute;
     width: 100vw;
-    height: 1000vh;
-    z-index: 1000;
-    top: -500vh;
+    height: 100vh;
+    position: fixed;
+    padding: 200px 0;
+    top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 99;
+    overflow-y: scroll !important;
+}
+
+.font-8{
+    font-size: 8vw;
 }
 
 .font-7{
@@ -122,8 +152,8 @@
 #mentoring .judul{
     background-color: #d94545;
     border-radius: 1.5vw;
+    padding: 35px 0 !important;
     width: 70%;
-    padding: 10px 0;
     font-size: 2.5vw;
     box-shadow: .8vw .8vw #2d4fae,
                 1.1vw 1.1vw .5vw rgba(0,0,0,0.3);
@@ -180,9 +210,10 @@
 /* section 3 */
 
 #theme .pop-Up{
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     width: 90%;
     border-radius: 3vw;
     overflow: hidden;
@@ -248,7 +279,7 @@
     }
     #mentoring .judul{
         width: 90%;
-        padding: 2px 0;
+        padding: 5px 0 !important;
         font-size: 3.5vw;
         box-shadow: 5px 5px #2d4fae;
     }
@@ -282,6 +313,10 @@
         display: none;
     }
 
+    .card h3{
+        font-size: 3.5vw;
+    }
+
     .top-zachery{
         display: block;
         top: 5.5vh;
@@ -308,7 +343,7 @@
         outline: 1.8vw solid #a9b4d5;
     }
 
-    .active{
+    #theme .active{
         outline: 1.8vw solid #e3f8ff;
         filter: drop-shadow(0 0 10px #e3f8ff);
     }
@@ -322,9 +357,19 @@
     #theme .font-size{
         font-size: 2.8vw;
     }
+
+    #committe .judul{
+        font-size: 9.5vw;
+    }
+
+    #committe .judul2{
+        font-size: 6.5vw;
+    }
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 720px ){
+    
+
     .top-zachery{
         top: 12vh;
     }
@@ -343,11 +388,33 @@
     .text-list{
         font-size: 2vw;
     }
+
+    #committe .judul{
+        font-size: 8vw;
+    }
+
+    #committe .judul2{
+        font-size: 5.5vw;
+    }
+
 }
+
+@media screen and (min-width: 720px ) and (max-width: 1200px){
+    #theme .pop-Up{
+        top: 55%;
+        transform: translate(-50%, -45%);
+    }
+
+    #mentoring .judul{
+        padding: 10px 0 !important;
+    }
+
+}
+
 
 @media screen and (min-width: 1200px) {
     .logo{
-        width: 800px;
+        width: 600px;
     }
 
     #mentoring .question{
@@ -437,6 +504,11 @@
     }
 
     #committe .judul{
+        font-size: 7vw;
+    }
+
+    #committe .judul2{
         font-size: 4vw;
     }
+
 }

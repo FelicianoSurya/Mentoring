@@ -9,7 +9,7 @@
 @section('content')
 <div class="about">
     <div class="relative bg-blue p-4 p-lg-5 pt-4 pb-1 d-flex justify-content-center">
-        <img class="logo mt-2 logo img-fluid my-lg-5" src="{{ asset('Images/AboutUs/logo.png') }}" />
+        <img class="logo mt-2 logo img-fluid my-lg-5 py-lg-5" src="{{ asset('Images/AboutUs/logo.png') }}" />
         <img class="absolute z-10 trails1" src="{{ asset('Images/AboutUs/trails1.png') }}" />
         <img class="absolute z-10 trails2" src="{{ asset('Images/AboutUs/trails2.png') }}" />
     </div>
@@ -21,10 +21,10 @@
                 <img class="absolute " src="{{ asset('Images/AboutUs/frame.png') }}" />
             </h1>
         </div>
-        <div class="judul z-100 text-center py-2">
-            <p class="bold text-light z=100 mb-0">Expand Opportunities Through Your Potential</p>
+        <div class="judul z-98 text-center py-3">
+            <p class="bold text-light z-98 mb-0">Expand Opportunities Through Your Potential</p>
         </div>
-        <div class="z-100 relative text-box p-3 p-md-5 mt-3 mt-md-5">
+        <div class="z-98 relative text-box p-3 p-md-5 mt-3 mt-md-5">
             <p class="medium mx-lg-5 navy">Tema ini merepresentasikan perjalanan awal mahasiswa baru UMN di dunia perkuliahan yang berbeda dari sebelumnya. Mentee akan masuk dalam tahap adaptasi, di mana mereka kerap merasa tersesat dan bingung. Seperti “apa yang sebenarnya aku suka?”, “apakah jurusan ini pilihan yang tepat?”, dan “apa yang akan aku lakukan ke depannya?”. </p>
             <p class="medium mx-lg-5 mb-3 mb-md-5 navy">Terdapat beberapa pesan kunci yang Mentoring 2022 tekankan. Pertama, Mentee keluar dari zona nyamannya untuk berinovasi. Kedua, Mentee mengeksplorasi banyak hal. Terakhir, Mentee menemukan titik fokus yang akan dijadikan garis finish (goal).</p>
             <img class="absolute question bottom-left img-fluid" src="{{ asset('Images/AboutUs/frame1.png') }}" />
@@ -36,7 +36,7 @@
         <img width="100%" src="{{ asset('Images/AboutUs/tail2.png') }}" />
         <div class="judul">
             <h3 class="medium text-blue font-4 lightBold">Our</h3>
-            <h1 class="bold text-blue font-7 text-shadow-yellow">TAGLINE</h1>
+            <h1 class="bold text-blue font-8 text-shadow-yellow">TAGLINE</h1>
             <h3 class="bold text-blue font-4">“Emerge, Extend, Elevate”</h3>
         </div>
         <img class="relative z-1 top-zachery" src="{{ asset('Images/AboutUs/zachery2.png') }}"  />
@@ -53,7 +53,7 @@
                     <p class="p-lg-5 p-md-4 px-3 py-3 medium navy">Mentoring hadir untuk memperluas pengalaman dan membantu Mentee mengeksplorasi potensi diri mereka. </p>
                 </div>
             </div>
-            <div class="z-100 col-12 col-xl-4 d-flex flex-column justify-content-center align-items-xl-start align-items-center">
+            <div class="z-98 col-12 col-xl-4 d-flex flex-column justify-content-center align-items-xl-start align-items-center">
                 <div class="card relative">
                     <img class="absolute zachery" src="{{ asset('Images/AboutUs/zachery2.png') }}" />
                     <h3 class="card-header medium text-blue">Elevate</h3>
@@ -99,24 +99,27 @@
         </div>
         <p class="mx-3 lightBold text-blue d-lg-none font-2">*click the symbol for more information</p>
         <div class="box-popUp">
+            <div class="backgroundPop">
 
+            </div>
         </div>
-        <div class="backgroundPop">
-
-        </div>
+        
         <img class="z-1" width="100%" src="{{ asset('Images/AboutUs/bg5.png') }}" />
     </div>
 
     <div id="value" class="relative bg-blue">
+        <div class="bg-darkblue">
+
+        </div>
         <img class="z-1" width="100%" src="{{ asset('Images/AboutUs/bg6.png') }}" />
         <div class="row absolute margin-top d-flex">
-            <div class="col-6 z-100 d-flex flex-column justify-content-center align-items-center">
-                <img width="70%" src="{{ asset('Images/AboutUs/value.png') }}" />
-                <p style="font-size:2vw" class="text-yellow medium">5C UMN</p>
-                <button class="btn-learnMore text-blue lightBold bg-yellow text-nowrap px-3 px-md-5 border-0">Learn More</button>
+            <div class="col-6 z-98 d-flex flex-column justify-content-center align-items-center">
+                <img width="90%" src="{{ asset('Images/AboutUs/value.png') }}" />
+                <p style="font-size:3vw" class="text-yellow medium">5C UMN</p>
+                <a href="./values" ><button class="btn-learnMore text-blue lightBold bg-yellow text-nowrap px-3 px-md-5 border-0">Learn More</button></a>
             </div>
-            <div class="col-6 z-100 margin-right">
-                <img width="90%" src="{{ asset('Images/AboutUs/frame2.png') }}" />
+            <div class="col-6 z-98 margin-right">
+                <img width="110%" src="{{ asset('Images/AboutUs/frame2.png') }}" />
             </div>
         </div>
         <img class="z-1 absolute top-left" width="14%" src="{{ asset('Images/AboutUs/trails4.png') }}" />
@@ -125,17 +128,17 @@
 
     <div id="committe" class="relative bg-blue p-3 p-md-5">
         <div class="m-md-5">
-            <img width="100%" class="relative z-100" src="{{ asset('Images/AboutUs/divisi1.png') }}" />
+            <img width="100%" class="relative z-98" src="{{ asset('Images/AboutUs/divisi1.png') }}" />
             <div class="mx-5 d-flex mt-md-5 mt-4 flex-column align-items-center justify-content-center">
-                <h1 class=" display-1bo  bold judul text-blue text-nowrap text-shadow-yellow">Meet the Committe</h1>
-                <h5 class=" bold text-list text-blue text-nowrap text-shadow-yellow">of Mentoring UMN 2022</h5>
+                <h1 class=" bold judul mb-0 text-blue text-nowrap text-shadow-yellow">Meet the Committee</h1>
+                <h5 class=" bold judul2 text-blue text-nowrap text-shadow-yellow">of Mentoring UMN 2022</h5>
             </div>
             <div class="row d-flex align-items-center">
                 <div class="col-4 col-md-3">
                     <img width="100%" src="{{ asset('Images/AboutUs/divisi2.png') }}" />
                 </div>
                 <div class="col-4 col-md-6 d-flex justify-content-center">
-                    <button class="dark-blue text-light lightBold btn-learnMore text-nowrap p-2 p-md-3 px-3 px-md-5 border-0">Learn More</button>
+                    <a href="./committee" ><button class="dark-blue text-light lightBold btn-learnMore text-nowrap p-2 p-md-3 px-3 px-md-5 border-0">Learn More</button></a>
                 </div>
                 <div class="col-4 col-md-3">
                     <img width="100%" src="{{ asset('Images/AboutUs/divisi3.png') }}" />
@@ -151,11 +154,11 @@
 <!-- Script javascriptnya disini gais -->
 @section('custom-js')
 <script>
-        
         const buttons = document.querySelectorAll(".circle");
         const theme = document.querySelector(".box-popUp");
         const background = document.querySelector(".backgroundPop")
         let box_theme = document.createElement("div");
+        body = document.getElementsByTagName('body')[0];
 
         buttons.forEach((e, index) => {
             e.addEventListener("click",() =>{
@@ -163,6 +166,7 @@
                 e.classList.add('active');
                 box_theme.innerHTML = "";
                 background.setAttribute("class", "bg-black");
+                body.setAttribute("style", "overflow-y: hidden;")
                 if($(window).width() < 768){
                     if(index == 2 || index == 3){
                         box_theme.setAttribute("style","background-size: cover; background-repeat: no-repeat;background-image: url('{{ asset('Images/AboutUs/bgPopUpSmallShort.png') }}')")
@@ -172,7 +176,8 @@
                 }else{
                     box_theme.setAttribute("style","background-size: cover; background-repeat: no-repeat;background-image: url('{{ asset('Images/AboutUs/bgPopUp.png') }}')")
                 }
-                box_theme.setAttribute("class","py-5 pop-Up z-100 absolute margin-top");
+
+                box_theme.setAttribute("class","py-5 pop-Up z-100 margin-top");
                 if(index === 0){box_theme.innerHTML = `
                     <div class="relative d-flex flex-column align-items-center justify-content-center">
                         <button onclick="closePopUp()" class="absolute medium d-none d-md-block button-close">
@@ -330,7 +335,7 @@
                         
                     </div>`
                 }
-                theme.appendChild(box_theme);
+                background.appendChild(box_theme);
                 
             } );
         });
@@ -338,8 +343,9 @@
         const closePopUp = () =>{
             buttons.forEach(btn => btn.classList.remove('active'));
             console.log("click");
-            theme.innerHTML = "";
+            background.innerHTML = "";
             background.classList.remove("bg-black");
+            body.setAttribute("style", "overflow-y: scroll;")
         }
 </script>
 @endsection

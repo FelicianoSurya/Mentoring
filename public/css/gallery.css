@@ -1,0 +1,158 @@
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.z-1{
+    z-index: -1;
+}
+.z-10{
+    z-index: 10;
+}
+
+.z-99{
+    z-index: 99;
+}
+
+/* section1 */
+.filter{
+    background: #b9e3ec;
+    height: 57vw;
+}
+
+.logo{
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.top-right{
+    top: 0;
+    right: 0;
+}
+
+.bottom-left{
+    bottom: 0;
+    left: 0;
+}
+
+.text-judul{
+    margin-top: 30vw;
+    z-index: 99;
+}
+
+.title-yellow-shadow{
+    font-size: 1.6rem;
+    color: #2d4fae;
+    text-shadow: 5px 5px #f3d060;
+}
+
+/* section 2 */
+.section2{
+    background-color: #b9e3ec;
+}
+
+.white-box{
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.nav{
+    width: 100%;
+    background-color: #8bcfde;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+.pembekalan-2{
+    background-color: #a3dfec ;
+    border-radius: 20px 20px 0 0;
+}
+
+#gallery .active{
+    background-color: #baeefa;
+    border-radius: 20px 20px 0 0;
+}
+
+.gallery{
+    width: 80%;
+}
+
+.gallery-box{
+    width: 90%;
+    background-color: #baeefa;
+    border-radius: 20px;
+}
+
+#gallery .section1 .kontent{
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.album{
+    height: 80vh;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+
+.swiper{
+    width: 95%;
+}
+
+.swiper-pagination-bullet{
+    background-color: #2D4FAE;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    padding:25px;
+    border-radius: 50px;
+    font-size: 15px !important;
+    background-color: #2D4FAE;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 20px !important;
+    color:white;
+}
+
+.swiper img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) and (max-width: 765px) {
+    .title-yellow-shadow{
+        font-size: 2rem !important;
+    }
+
+    .logo{
+        width: 60%;
+    }
+
+    .pembekalan{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .title-yellow-shadow{
+        font-size: 3rem ;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .title-yellow-shadow{
+        font-size: 5rem;
+
+    }
+}
+
+
+    
