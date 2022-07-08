@@ -191,7 +191,7 @@
                         <rect width="1.73675" height="9.89945" transform="matrix(0.707107 0.707107 0.707107 -0.707107 2.88586 9.88623)" fill="white"/>
                         </svg></button>
                         <div class="text-center">
-                            <h1 class="text-center bold md-h1 text-yellow text-shadow-red">Our Logo</h1>
+                            <h1 class="text-center bold md-h1 text-yellow text-shadow-red mb-5">Our Logo</h1>
                         </div>
                         <div class="row mx-2 mx-md-5 d-flex justify-content-center">
                             <div class="mr-5 col-5 d-none d-lg-inline-flex d-flex align-items-center justify-content-center">
@@ -230,7 +230,7 @@
                         </svg></button>
                         
                         <div>
-                            <h1 class="text-center bold text-yellow text-shadow-red">Logo Minerva</h1>
+                            <h1 class="text-center bold text-yellow text-shadow-red mb-5">Logo Minerva</h1>
                         </div>
                         <div class="row text-box d-flex justify-content-center p-3 p-md-5">
                             <div class="col-8 col-lg-5 p-2 p-md-5 d-flex justify-content-center align-items-center">
@@ -273,7 +273,7 @@
                         </svg></button>
 
                         <div>
-                            <h1 class="text-center bold text-yellow text-shadow-red">Color Pallete</h1>
+                            <h1 class="text-center bold text-yellow text-shadow-red mb-5">Color Pallete</h1>
                         </div>
                         <div class="text-box p-3 p-lg-5 d-flex flex-column justify-content-center align-items-center">
                             <div class="row justify-content-center">
@@ -312,7 +312,7 @@
                         </svg></button>
                         
                         <div>
-                            <h1 class="text-center bold text-yellow text-shadow-red">Our Mascot</h1>
+                            <h1 class="text-center bold text-yellow text-shadow-red mb-5">Our Mascot</h1>
                         </div>
                         <div width="100%" class="d-flex flex-column align-items-center justify-content-center">
                             <div class="d-flex mx-2 justify-content-center">
