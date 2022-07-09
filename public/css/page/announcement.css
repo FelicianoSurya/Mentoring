@@ -18,7 +18,7 @@ body{
     background: #BAEEFA !important;
     /* z-index: 100; */
     width: 100vw;
-    min-height: 300vw;
+    min-height: 275vw;
 }
 .bg-1{
     position:absolute;
@@ -420,6 +420,18 @@ body{
     bottom: 0;
     left: 0;
     width: 100vw;
+}
+@media screen and (max-width:1700px){
+    .section-1{
+        height: 275px !important;
+    }
+
+}
+@media screen and (max-width:1550px){
+    .section-1{
+        height: 300vw !important;
+    }
+
 }
 @media screen and (max-width:1200px){
     .section-1{

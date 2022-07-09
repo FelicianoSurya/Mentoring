@@ -353,6 +353,7 @@
 
 .video-border{
     width: 85vw;
+    height: 47vw;
     position:absolute;
     top: 15%;
     margin-left: auto;
@@ -369,6 +370,7 @@
     left: 0;
     right: 0;
     width: 80vw;
+    height: 45vw;
     padding-top: 2.5%;
     /* border-radius: 100px; */
     z-index: 0;
@@ -723,6 +725,7 @@
     font-family: 'Mulish_bold';
     background-color: #F0D162;
     color:#2D4FAE;
+    font-size: 1rem;
 }
 
 .box-memory-hover:hover{
@@ -769,6 +772,9 @@
     .section-5{
         padding-bottom: 700px;
     }
+    .btn-learnmore{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 985px) {
@@ -789,13 +795,16 @@
         font-size: 60px;
     }
     .btn-learnmore{
-        font-size: 12px;
+        font-size: 10px;
     }
     .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
         height: 350px;
     }
     .section-5{
         padding-bottom: 600px;
+    }
+    .box-memory-hover:hover{
+        border: 6px solid #F36C21;
     }
 }
 
@@ -812,7 +821,7 @@
         top: -155px;
     }
     .btn-learnmore{
-        font-size: 8px;
+        font-size: 7px;
     }
     .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
         height: 300px;
@@ -834,11 +843,14 @@
         top: -110px;
     }
     .btn-learnmore{
-        font-size: 7px;
+        font-size: 6px;
         white-space: normal;
     }
     .box-memory-1, .box-memory-2, .box-memory-3, .box-memory-4, .box-memory-5{
         height: 250px;
+    }
+    .box-memory-hover:hover{
+        border: 3px solid #F36C21;
     }
 }
 
