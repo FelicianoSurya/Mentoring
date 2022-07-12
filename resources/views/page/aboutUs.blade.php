@@ -14,11 +14,11 @@
         <img class="absolute z-10 trails2" src="{{ asset('Images/AboutUs/trails2.png') }}" />
     </div>
     <div id="mentoring" class="bg-yellow relative d-flex flex-column align-items-center">
-        <img width="100%" src="{{ asset('Images/AboutUs/tail1.png') }}" />
+        <img width="100%" class="absolute tail-top" src="{{ asset('Images/AboutUs/tail1.png') }}" />
         <div class="mentoring text-center">
             <p class="medium text-blue mb-0">What is</p>
             <h1 class="relative bold text-blue text-shadow-red">MENTORING
-                <img class="absolute " src="{{ asset('Images/AboutUs/frame.png') }}" />
+                <img class="absolute" src="{{ asset('Images/AboutUs/frame.png') }}" />
             </h1>
         </div>
         <div class="judul z-98 text-center py-3">
@@ -33,7 +33,7 @@
     </div>
 
     <div id="tagline" class="relative bg-blue text-center pb-5">
-        <img width="100%" src="{{ asset('Images/AboutUs/tail2.png') }}" />
+        <img width="100%"  class="relative z-1 tail-top" src="{{ asset('Images/AboutUs/tail2.png') }}" />
         <div class="judul">
             <h3 class="medium text-blue font-4 lightBold">Our</h3>
             <h1 class="bold text-blue font-8 text-shadow-yellow">TAGLINE</h1>
@@ -64,8 +64,8 @@
         <img width="17%" class="absolute trails3 z-10 d-none d-lg-block" src="{{asset('Images/AboutUs/trails3.png') }}" />
     </div>
 
-    <div id="theme" class="relative bg-yellow">
-        <img class="absolute top-left" width="100%" src="{{ asset('Images/AboutUs/tail3.png') }}" />
+    <div id="theme" class="relative bg-yellow pb-5">
+        <img class="absolute tail-top top-left z-10" width="100%" src="{{ asset('Images/AboutUs/tail3.png') }}" />
         <div class="absolute judul text-center">
             <p class="medium text-blue mb-0 lightBold font-4">Our</p>
             <h1 class="bold text-blue font-7 text-shadow-blue">THEME</h1>
@@ -104,13 +104,10 @@
             </div>
         </div>
         
-        <img class="z-1" width="100%" src="{{ asset('Images/AboutUs/bg5.png') }}" />
+        <img class="z-1 absolute bottom-tail" width="100%" src="{{ asset('Images/AboutUs/bg5.png') }}" />
     </div>
 
     <div id="value" class="relative bg-blue">
-        <div class="bg-darkblue">
-
-        </div>
         <img class="z-1" width="100%" src="{{ asset('Images/AboutUs/bg6.png') }}" />
         <div class="row absolute margin-top d-flex">
             <div class="col-6 z-98 d-flex flex-column justify-content-center align-items-center">

@@ -18,13 +18,21 @@
     z-index: 99;
 }
 
+.box-red{
+    box-shadow: 1.5vw 1.5vw #d94545;
+}
+
+.box-yellow{
+    box-shadow: 1.5vw 1.5vw #f3d060;
+}
+
 /* section1 */
 .filter{
     background: #b9e3ec;
-    height: 57vw;
+    height: 70vw;
 }
 
-.logo{
+#gallery .logo{
     left: 50%;
     transform: translate(-50%);
     z-index: -1;
@@ -42,13 +50,13 @@
 
 .text-judul{
     margin-top: 30vw;
-    z-index: 99;
 }
 
 .title-yellow-shadow{
     font-size: 1.6rem;
     color: #2d4fae;
     text-shadow: 5px 5px #f3d060;
+    z-index: 100 !important;
 }
 
 /* section 2 */
@@ -62,17 +70,26 @@
     border-radius: 20px;
 }
 
-.nav{
+#gallery .text-blue{
+    font-size: 0.8rem;
+    color: #2d4fae;
+    width: 80%;
+}
+
+#gallery .nav{
     width: 100%;
     background-color: #8bcfde;
     border-radius: 20px 20px 0 0;
 }
 
-
-
 .pembekalan-2{
     background-color: #a3dfec ;
     border-radius: 20px 20px 0 0;
+}
+
+.pembekalan{
+    color: #2d4fae;
+    cursor: pointer;
 }
 
 #gallery .active{
@@ -127,7 +144,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 600px) and (max-width: 765px) {
+@media screen and (max-width: 600px){
     .title-yellow-shadow{
         font-size: 2rem !important;
     }
@@ -137,11 +154,16 @@
     }
 
     .pembekalan{
+        color: #2d4fae;
         font-size: .5rem;
+    }
+
+    .album{
+        height: 35vh;
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) {
     .title-yellow-shadow{
         font-size: 3rem ;
     }
@@ -150,7 +172,14 @@
 @media screen and (min-width: 1200px) {
     .title-yellow-shadow{
         font-size: 5rem;
+    }
 
+    .text-judul{
+        margin-top: 25vw;
+    }
+
+    .filter{
+        height: 60vw;
     }
 }
 

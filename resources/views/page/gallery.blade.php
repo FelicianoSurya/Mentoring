@@ -14,16 +14,20 @@
         <img width="100%"class="filter" src="{{ asset('Images/Gallery/background-1.png') }}"/>
         
         <div class="absolute kontent z-10 text-center ">
-            <img class="absolute logo" width="80%" src="{{ asset('Images/Gallery/logo.png') }}" />
+            <img class="absolute logo" width="90%" src="{{ asset('Images/Gallery/logo.png') }}" />
             <p class="z-10 bold text-judul title-yellow-shadow text-nowrap">MENTORING UMN <br /> GALLERY</p>
         </div>
     </div>
     <div class="section2 d-flex flex-column justify-content-center align-items-center">
-        <div class="white-box my-5 d-flex flex-column align-items-center justify-content-center">
-            <div class="z-10 mt-5  bold title-yellow-shadow text-center">
-                PEMBEKALAN MENTOR
+        <div class="white-box box-red text-left mt-5 mb-2 my-md-5 d-flex flex-column align-items-center justify-content-center">
+            <div class="mt-5 bold title-yellow-shadow ">
+                <p class="text-center">PEMBEKALAN MENTOR</p>
             </div>
-            <div class="mx-5 my-5 gallery-box">
+            <div  class="text-left light text-blue d-block d-lg-none">
+                <p class="mb-0">*Click the tab to open other folder</p>
+            </div>
+            
+            <div class="mx-5 my-lg-5 mt-3 mb-5 gallery-box">
                 <div class="nav">
                     <div class="px-2 py-1 px-md-3 py-md-3 active pembekalan">
                         Pembekalan Mentor 3
@@ -36,7 +40,7 @@
                     </div>
                 </div>
                 <div class="p-3">
-                    <div class="row album">
+                    <div class="row album g-1">
                         <div class="col-6">
                             <img class="photo" width="100%" src="{{ asset('Images/Gallery/photo1.png') }}" />
                         </div>
@@ -81,7 +85,7 @@
             </div>
         </div>
 
-        <div class="white-box relative pb-5 px-5 my-5 d-flex flex-column align-items-center justify-content-center">
+        <div class="white-box box-yellow relative pb-1 px-2 pb-md-5 px-md-5 my-5 d-flex flex-column align-items-center justify-content-center">
             <div class="swiper mb-5">
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -142,30 +146,20 @@
       },
     });
 
-    const photo1 = [
+    const photos = [
+            ["{{ asset('Images/Gallery/photo1.png') }}",
+            "{{ asset('Images/Gallery/photo2.png') }}",
             "{{ asset('Images/Gallery/photo3.png') }}",
+            "{{ asset('Images/Gallery/photo4.png') }}",],
+            ["{{ asset('Images/Gallery/photo1.png') }}",
             "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo1.png') }}",
+            "{{ asset('Images/Gallery/photo3.png') }}",
             "{{ asset('Images/Gallery/photo4.png') }}",
-        ]
-
-    const photo2 = 
-        [
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-        ]
-    const photo3 =
-        [
-            "{{ asset('Images/Gallery/photo4.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",
-        ]
-    
+            "{{ asset('Images/Gallery/photo1.png') }}",],
+            ["{{ asset('Images/Gallery/photo2.png') }}",
+            "{{ asset('Images/Gallery/photo3.png') }}",
+            "{{ asset('Images/Gallery/photo4.png') }}",]
+    ]
 
     const album = document.querySelector(".album");
     const nav = document.querySelectorAll(".pembekalan")
@@ -174,17 +168,19 @@
             nav.forEach((btn) => btn.classList.remove('active'));
             e.classList.add('active');
             album.innerHTML = "";
-            album.innerHTML = `${
-                photo1.map((x)=>{
-                    `
-                    <div class="col-6">
-                            <img width="100%" src=${x} />
-                    </div>
-                    `
-                })
-            }`;
+            photos[index].map((x)=>{
+                const newPhoto = document.createElement("div");
+                newPhoto.classList.add("col-6");
+                newPhoto.innerHTML=`
+                <img width="100%" src="${x}" />
+                `
+                album.appendChild(newPhoto);
+            })
+            
         })
     })
     
+
+
 </script>
 @endsection
