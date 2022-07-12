@@ -114,7 +114,7 @@
 }
 
 .album{
-    height: 80vh;
+    max-height: 80vh;
     overflow-y: scroll;
     border-radius: 20px;
 }
