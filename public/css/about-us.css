@@ -468,7 +468,7 @@ body{
         outline: 15px solid #f3d060;
     }
 
-    .active::before{
+    #theme .active::before{
         position: absolute;
         width: 220px;
         height: 220px;
