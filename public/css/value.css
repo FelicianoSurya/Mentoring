@@ -34,6 +34,11 @@
     z-index: 100;
 }
 
+.section1{
+    background-color: #F3D060;
+    margin-bottom: 0;
+}
+
 .section1 .logo5c{
     width: 40vw;
     padding-top: 4rem;
@@ -143,11 +148,11 @@
 
 @media screen and (max-width: 576px){
     .umn_2022{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .section1 .maskot{
-        top: 105vw;
+        top: 105vw !important;
         width: 30vw;
     }
     
@@ -155,6 +160,7 @@
         width: 52vw;
         padding-top: 3rem;
     }
+
     .section2{
         padding-top: 30vw;
     }
@@ -182,8 +188,20 @@
         font-size: 43px;
     }
 
+    .umn_2022{
+        font-size: 3vw;
+        margin-bottom: 0;
+    }
+
     .section1 .maskot{
-        top: 105vw;
-        width: 30vw;
+        top: 67vw;
+        width: 25vw;
+    }
+
+    .penjelasan{
+        font-size: 16px;
+        text-align: center;
     }
 }
+
+
