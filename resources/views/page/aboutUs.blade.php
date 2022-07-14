@@ -44,20 +44,20 @@
             <div class="col-12 col-xl-4 d-flex flex-column justify-content-center align-items-xl-end align-items-center">
                 <div class="card ">
                     <h3 class="card-header medium text-blue">Emerge</h3>
-                    <p class="p-lg-5 p-md-4 px-3 py-3 medium navy"> Mentoring menjadi wadah bagi para Mentee untuk mengenali dirinya sendiri dan apa yang menjadi ketertarikan mereka, baik itu hobi, cita-cita, dan banyak lagi. </p>
+                    <p class=" p-md-4 px-3 py-3 p-lg-5 medium navy"> Mentoring menjadi wadah bagi para Mentee untuk mengenali dirinya sendiri dan apa yang menjadi ketertarikan mereka, baik itu hobi, cita-cita, dan banyak lagi. </p>
                 </div>
             </div>
             <div class="col-12 col-xl-4 d-flex flex-column justify-content-center align-items-center">
                 <div class="card ">
                     <h3 class="card-header medium text-blue">Extend</h3>
-                    <p class="p-lg-5 p-md-4 px-3 py-3 medium navy">Mentoring hadir untuk memperluas pengalaman dan membantu Mentee mengeksplorasi potensi diri mereka. </p>
+                    <p class=" p-md-4 px-3 p-lg-5 py-3 medium navy">Mentoring hadir untuk memperluas pengalaman dan membantu Mentee mengeksplorasi potensi diri mereka. </p>
                 </div>
             </div>
             <div class="z-98 col-12 col-xl-4 d-flex flex-column justify-content-center align-items-xl-start align-items-center">
                 <div class="card relative">
                     <img class="absolute zachery" src="{{ asset('Images/AboutUs/zachery2.png') }}" />
                     <h3 class="card-header medium text-blue">Elevate</h3>
-                    <p class="p-lg-5 p-md-4 px-3 py-3 medium navy">Setelah mengeksplorasi potensi diri, Mentee akan menemukan titik fokus dan membuat target untuk mencapainya.</p>
+                    <p class=" p-md-4 px-3 p-lg-5 py-3 medium navy">Setelah mengeksplorasi potensi diri, Mentee akan menemukan titik fokus dan membuat target untuk mencapainya.</p>
                 </div>
             </div>
         </div>

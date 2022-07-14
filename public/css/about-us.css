@@ -352,7 +352,7 @@ body{
     }
 
     .middle{
-        top: 48vw;
+        top: 46vw;
         left: 50%;
         transform: translate(-50%);
     }
@@ -484,7 +484,7 @@ body{
     }
 
     .middle{
-        top: 53vw;
+        top: 51.5vw;
         left: 50%;
         transform: translate(-50%);
     }
@@ -499,7 +499,7 @@ body{
 
     .card{
         width: 25vw;
-        height: 28vw;
+        height: 32vw;
     }
 
     #theme .text-box-short{
