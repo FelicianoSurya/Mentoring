@@ -44,7 +44,6 @@
                 </div>
             </div>
             <div class="justify-content-center mt-5 mx-1 nilai5c-box">
-                
             </div>
         </div>
         <img class="bg bg2" src="{{asset('Images/Valuepage/BG_2_Value.png')}}"/>
