@@ -20,7 +20,8 @@
                 
                 <div class="title col-md-6">
                     <h1 class="content-title">This is<br>Our Journey</h1>
-                    <p class="content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet nulla lectus ut nisl eget mus neque lacus risus. Elementum, egestas amet, ultrices libero amet fermentum, aliquam. Sed fermentum amet enim massa.</p>
+                    <p class="content-desc">Hai, Keluarga Besar Mentoring UMN 2022! Siapa di sini yang sudah penasaran dengan keseruan dari beberapa kegiatan Mentoring UMN 2022 yang sudah terlaksana? Ada apa saja, sih? Nah, berikut merupakan sedikit perjalanan yang telah para panitia dan Mentor tempuh. Perjalanan yang seru, bermanfaat, dan meninggalkan banyak kesan mendalam. Jangan sampai ketinggalan perjalanan selanjutnya yang pastinya semakin seru dan menarik, yaa. Jadilah bagian utama dari perjalanan berharga di Mentoring UMN 2022!
+                    </p>
                 </div>
     
                 <h1 class="title-2">NEWS</h1>
@@ -38,21 +39,21 @@
                     <img src="{{ asset('Images/News/Frame 17.png') }}" class="d-block w-75 mx-auto">
                     <div class="carousel-caption carousel-desc-1">
                       <h5 class="carousel-caption-header">Pembekalan Mentoring Day 1</h5>
-                      <p class="carousel-caption-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est nisl porttitor nibh quisque eu nibh pulvinar. Molestie in amet, consequat phasellus malesuada dignissim. Facilisi tincidunt sed vulputate aliquet interdum tincidunt. Orci mauris, dignissim donec metus</p>
+                      <p class="carousel-caption-desc">Pada Pembekalan Mentor 1 ini, narasumber mengangkat tema “5C with Diagram”. 5C sendiri merupakan nilai-nilai yang ingin ditanamkan oleh Universitas Multimedia Nusantara (UMN) kepada seluruh mahasiswanya agar menjadi lebih Caring, Credible, Competent, Competitive, dan Customer Delight. Nah, nilai-nilai tersebut disampaikan secara komprehensif oleh tim dari Diagram Kompas Gramedia kepada para Mentor untuk disampaikan kembali kepada para Mentee pada kegiatan Mentoring UMN 2022.</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="{{ asset('Images/News/Frame 19.png') }}" class="d-block w-75 mx-auto">
                     <div class="carousel-caption">
                       <h5 class="carousel-caption-header">Pembekalan Mentoring Day 2</h5>
-                      <p class="carousel-caption-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est nisl porttitor nibh quisque eu nibh pulvinar. Molestie in amet, consequat phasellus malesuada dignissim. Facilisi tincidunt sed vulputate aliquet interdum tincidunt. Orci mauris, dignissim donec metus</p>
+                      <p class="carousel-caption-desc">Pada Pembekalan Mentor 2 ini, narasumber mengangkat tema “How to be an Ideal Mentor”. Beberapa pertanyaan pasti muncul dari dalam benak seorang Mentor saat ia mendengar kata “Ideal Mentor”. Misalnya, mentor yang ideal itu seperti apa, sih? Bagaimana caranya untuk menjadi Mentor yang ideal? Dan aspek apa saja yang harus dimiliki oleh seorang Mentor untuk menjadi ideal? Nah, beberapa pertanyaan tersebut dijawab secara komprehensif oleh pembimbing Mentoring UMN 2022, yaitu Mas Sonny Tirta, M.Psi. Tidak hanya itu, Mas Sonny juga turut berperan sebagai motivator bagi para Mentor yang baru terjun ke dunia Mentorship.</p>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="{{ asset('Images/News/Frame 19.png') }}" class="d-block w-75 mx-auto">
                     <div class="carousel-caption">
                       <h5 class="carousel-caption-header">Pembekalan Mentoring Day 3</h5>
-                      <p class="carousel-caption-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est nisl porttitor nibh quisque eu nibh pulvinar. Molestie in amet, consequat phasellus malesuada dignissim. Facilisi tincidunt sed vulputate aliquet interdum tincidunt. Orci mauris, dignissim donec metus</p>
+                      <p class="carousel-caption-desc">Pada Pembekalan Mentor 3 ini, narasumber mengangkat tema “Mentor Starter Pack”. Nah, apa sih bedanya dengan tema pada Pembekalan Mentor 2? Kalau pada Pembekalan Mentor 2 secara khusus membahas mengenai cara Mentor untuk menjadi ideal, pada Pembekalan Mentor 3 yang dijelaskan adalah bekal yang harus mereka miliki saat menjadi seorang Mentor. Salah satu yang paling utama adalah kepercayaan diri dan kemampuan public speaking yang secara komprehensif disampaikan oleh salah satu dosen Komunikasi Strategis di UMN, yaitu Kak Vega Karina Andira Putri, S.Sos., M.Si.</p>
                     </div>
                   </div>
                 </div>

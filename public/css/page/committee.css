@@ -119,6 +119,7 @@ p{
     color:#4A4A4A;
 }
 
+
 .judul{
     font-size: 5vw;
     letter-spacing: 5px;
@@ -260,69 +261,156 @@ p{
     background-color: #fff;
     border-radius: 10px;
     margin-top: 10vw;
+    padding-bottom: 1vw;
     z-index: 100;
+}
+
+.box-kelompok h3{
+    min-height: 3vw;
+}
+
+.box-kelompok h5{
+    font-size: 1.3vw;
+    margin:0;
 }
 
 .shadow-mentor{
     box-shadow: 10px 10px 0px 3px #FFBE82;
 }
 
+
 .shadow-cc{
     box-shadow: 10px 10px 0px 3px #FFEB49;
+}
+
+.shadow-cc h5, .shadow-cc .nama_ketua, .shadow-cc .list_anggota{
+    color:#C18200;
 }
 
 .shadow-admin{
     box-shadow: 10px 10px 0px 3px #5CC647;
 }
 
+.shadow-admin h5, .shadow-admin .nama_ketua, .shadow-admin .list_anggota{
+    color:#4C7345;
+}
+
 .shadow-accom{
     box-shadow: 10px 10px 0px 3px #5BD8FF;
+}
+
+.shadow-accom h5, .shadow-accom .nama_ketua, .shadow-accom .list_anggota{
+    color:#055A42;
 }
 
 .shadow-ec{
     box-shadow: 10px 10px 0px 3px #68A4FF;
 }
 
+.shadow-ec h5, .shadow-ec .nama_ketua, .shadow-ec .list_anggota{
+    color:#4C7345;
+}
+
+.shadow-mentor h5, .shadow-mentor .nama_ketua, .shadow-mentor .list_mentor{
+    color:#FFBE82;
+}
+
 .shadow-dokum{
     box-shadow: 10px 10px 0px 3px #9E87FB;
+}
+
+.shadow-dokum h5, .shadow-dokum .nama_ketua, .shadow-dokum .list_anggota{
+    color:#694CA4;
 }
 
 .shadow-visual{
     box-shadow: 10px 10px 0px 3px #FF7BBA;
 }
 
+.shadow-visual h5, .shadow-visual .nama_ketua, .shadow-visual .list_anggota{
+    color:#D85993;
+}
+
 .shadow-prmr{
     box-shadow: 10px 10px 0px 3px #FF7678;
+}
+
+.shadow-prmr h5, .shadow-prmr .nama_ketua, .shadow-prmr .list_anggota{
+    color:#DD4F54;
 }
 
 .shadow-research{
     box-shadow: 10px 10px 0px 3px #FFC16C;
 }
 
+.shadow-research h5, .shadow-research .nama_ketua, .shadow-research .list_anggota{
+    color:#825200;
+}
+
 .shadow-insurer{
     box-shadow: 10px 10px 0px 3px #939393;
 }
 
-.shadow-accom{
-    box-shadow: 10px 10px 0px 3px #1DEEB2;
+.shadow-insurer h5, .shadow-insurer .nama_ketua, .shadow-insurer .list_anggota{
+    color:#4A4A4A;
+}
+
+.shadow-web{
+    box-shadow: 10px 10px 0px 3px #5BD8FF;
+}
+
+.shadow-web h5, .shadow-web .nama_ketua, .shadow-web .list_anggota{
+    color:#2D4FAE;
 }
 
 .image-ketua{
     margin-top: -8vw;
-    width: 15vw;
+    min-width: 20vw;
+    min-height: 20vw;
+    max-height: 25vw;
 }
 
+.image-ketua-mentor{
+    margin-top: -8vw;
+    min-width: 17vw;
+    max-width: 25vw;
+    min-height: 15vw;
+    max-height: 25vw;
+}
 
-.image-anggota{
+.image-anggota{ 
     margin-top: -7vw;
-    width: 30vw;
+    min-width: 20vw;
+    min-height: 20vw;
+    max-height: 25vw;
+}
+
+.image-anggota-mentor{ 
+    margin-top: -4vw;
+    min-width: 20vw;
+    min-height: 20vw;
+    max-height: 25vw;
 }
 
 .nama_ketua{
     font-size: 2vw;
+    margin:0;
+}
+
+.list_anggota{
+    width: 60%;
+    margin-top: 20px;
 }
 
 .list_anggota p{
+    font-size: 1vw;
+}
+
+.list_mentor{
+    padding-top: 1vw;
+}
+
+.list_mentor p{
     font-size: 1vw;
 }
 
@@ -349,11 +437,32 @@ p{
 @media(max-width:769px){
     .image-ketua{
         margin-top:0;
+        min-width: 15vw;
+        min-height: 15vw;
+        max-height: 20vw;
+    }
+
+    .image-ketua-mentor{
+        margin-top: 0;
+        min-width: 17vw;
+        max-width: 25vw;
+        min-height: 15vw;
+        max-height: 25vw;
     }
 
     .image-anggota{
         margin-top:0;
         width: 30vw;
+        min-width: 15vw;
+        min-height: 15vw;
+        max-height: 20vw;
+    }
+
+    .image-anggota-mentor{ 
+        margin-top: 0vw;
+        min-width: 20vw;
+        min-height: 20vw;
+        max-height: 25vw;
     }
     
     .list_anggota p{
@@ -384,5 +493,15 @@ p{
     .down-team{
         width: 40%;
     }
+    
+    .list_anggota{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .list_mentor p{
+        font-size: 1.3vw;
+    }
+
 }
 
