@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c" src="{{asset('Images/Valuepage/Logo_Credible.png')}}">
-                </div>
+                </div>                                                        
                 <div class="col-2 mx-2 mx-lg-3">
                     <img class="nilai5c " src="{{asset('Images/Valuepage/Logo_Competent.png')}}">
                 </div>
@@ -44,6 +44,7 @@
                 </div>
             </div>
             <div class="justify-content-center mt-5 mx-1 nilai5c-box">
+                
             </div>
         </div>
         <img class="bg bg2" src="{{asset('Images/Valuepage/BG_2_Value.png')}}"/>

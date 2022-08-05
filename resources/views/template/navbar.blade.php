@@ -26,7 +26,7 @@
             <div class="nav-menu lights fs-5 py-2"><a href="/values">Values</a></div>
             <div class="nav-menu lights fs-5 py-2"><a href="/committee">Committee</a></div>
             <div class="nav-menu bold fs-4 py-2"><a href="/news">News</a></div>
-            <div class="nav-menu bold fs-4 py-2"><a href="#">Gallery</a></div>
+            <div class="nav-menu bold fs-4 py-2"><a href="/gallery">Gallery</a></div>
             </div>
     </div>
 

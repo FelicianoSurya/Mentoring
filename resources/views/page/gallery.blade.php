@@ -41,42 +41,7 @@
                 </div>
                 <div class="p-3">
                     <div class="row album g-1">
-                        <div class="col-6">
-                            <img class="photo" width="100%" src="{{ asset('Images/Gallery/photo1.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img class="photo" width="100%" src="{{ asset('Images/Gallery/photo2.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo3.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo4.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo1.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo2.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo3.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo4.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo1.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo2.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo3.png') }}" />
-                        </div>
-                        <div class="col-6">
-                            <img width="100%" src="{{ asset('Images/Gallery/photo4.png') }}" />
-                        </div>
+                        
                         
                     </div>
 
@@ -147,22 +112,75 @@
     });
 
     const photos = [
-            ["{{ asset('Images/Gallery/photo1.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo3.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",],
-            ["{{ asset('Images/Gallery/photo1.png') }}",
-            "{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo3.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",
-            "{{ asset('Images/Gallery/photo1.png') }}",],
-            ["{{ asset('Images/Gallery/photo2.png') }}",
-            "{{ asset('Images/Gallery/photo3.png') }}",
-            "{{ asset('Images/Gallery/photo4.png') }}",]
+            ["{{ asset('Images/Gallery/Pembekalan3/c(1).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(2).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(3).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(4).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(5).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(6).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(7).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(8).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan3/c(9).jpg') }}"
+            ],
+            ["{{ asset('Images/Gallery/Pembekalan2/a(1).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(2).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(3).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(4).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(5).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(6).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(7).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(8).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(9).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(10).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(11).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(12).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(13).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/a(14).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(1).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(2).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(3).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(4).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(5).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(6).jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan2/b(7).jpg') }}",
+            ],
+            ["{{ asset('Images/Gallery/Pembekalan1/FotbarAkhir/a.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarAkhir/b.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarAkhir/c.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarAkhir/d.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarAkhir/e.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarNarsum/1.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarNarsum/2.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarNarsum/3.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarNarsum/4.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/FotbarNarsum/5.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5063.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5065.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5064.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5066.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5067.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5068.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5069.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5070.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5071.jpg') }}",
+            "{{ asset('Images/Gallery/Pembekalan1/IMG_5072.jpg') }}",
+            ]
     ]
 
     const album = document.querySelector(".album");
     const nav = document.querySelectorAll(".pembekalan")
+
+    document.addEventListener("DOMContentLoaded", function(event){
+            photos[0].map((x)=>{
+                const newPhoto = document.createElement("div");
+                newPhoto.classList.add("col-6");
+                newPhoto.innerHTML=`
+                <img width="100%" src="${x}" />
+                `
+                album.appendChild(newPhoto);
+            })
+    });
+
     nav.forEach((e, index)=>{
         e.addEventListener("click", () =>{
             nav.forEach((btn) => btn.classList.remove('active'));
