@@ -118,7 +118,7 @@ header .box-nav{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
     transition: 0.2s;
 }
 
@@ -127,7 +127,6 @@ header .box-nav{
     z-index: 101;
     background: rgba(0, 0, 0, 0.5)!important;
     z-index: 101;
-
     transition: 0.2s;
 }
 
@@ -234,6 +233,10 @@ header .box-nav{
         width: 25px;
         position: relative;
         margin-right: 0;
+      }
+
+      .overflowdie{
+        overflow: hidden;
       }
       
     #nav-icon3 span{

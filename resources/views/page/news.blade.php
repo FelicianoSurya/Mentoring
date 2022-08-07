@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div class="d-flex flex-column justify-content-start align-items-center text-center overflow-x-hidden">
+    <div class="d-flex flex-column justify-content-start align-items-center text-center overflow-x-hidden" style="z-index: 1">
 
         {{-- SECTION-1 --}}
         <div class="section-1 relative">
@@ -80,7 +80,7 @@
             <img class="vector-3-bottom" src="{{ asset('Images/News/BG 3_News-Bottom.png') }}">
             <img class="trail-3" src="{{ asset('Images/News/Trail 3_News.png') }}">
             <img class="video-border" src="{{ asset('Images/News/Video border.png') }}">
-            <video autoplay controls class="d-block mx-auto video-mentoring">
+            <video controls class="d-block mx-auto video-mentoring">
               <source src="{{ asset('Images/News/VideoPembekalan.mp4') }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -98,7 +98,7 @@
         {{-- END OF MID SECTION --}}
   
         {{-- SECTION-4 --}}
-          <div class="section-4">
+          <div class="section-4" style="z-index: 1">
             <p class="content-4">MENTORING UMN</p>
   
             {{-- IMAGE --}}
@@ -108,7 +108,7 @@
               <img src="{{ asset('Images/News/Pembekalan 3.jpg') }}" class="news-child">
               <img src="{{ asset('Images/News/Pembekalan 1.jpg') }}" class="news-child left-img">
               <img src="{{ asset('Images/News/Pembekalan 2.jpg') }}" class="news-child">
-              <button class="btn btn-seemore see-more">See More</button>
+              <a href="gallery"><button class="btn btn-seemore see-more">See More</button></a>
             </div>
 
           </div>
