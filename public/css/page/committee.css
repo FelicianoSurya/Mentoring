@@ -197,6 +197,10 @@ p{
     width: 30%;
 }
 
+.close button:hover{
+    cursor: pointer;
+}
+
 .content-mentor{
     background-color: #DE702C;
 }
@@ -250,10 +254,6 @@ p{
     background:transparent;
     border:none;
     color:white;
-}
-
-.clickdown:hover{
-    color:#FFBE82;
 }
 
 .box-kelompok{
@@ -491,7 +491,7 @@ p{
     }
 
     .down-team{
-        width: 40%;
+        width: 3vw;
     }
     
     .list_anggota{
