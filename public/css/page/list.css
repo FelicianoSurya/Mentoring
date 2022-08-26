@@ -1,0 +1,112 @@
+body{
+    background: #BAEEFA !important;
+}
+
+.head-box{
+    background-color: #F3D060;
+    border-radius: 10px 10px 0 0;
+    width: 80vw;
+    margin: 200px auto 0 auto;
+    padding: 25px 10vw 25px 10vw;
+    position: relative;
+}
+
+.list-box{
+    background-color: #F3D060;
+    border-radius: 0 0 10px 10px;
+    width: 80vw;
+    margin: 0 auto 200px auto;
+    padding: 25px 10vw 25px 10vw;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+
+.list-title{
+    font-family: 'Mulish_black';
+    font-size: 40px;
+    text-align: center;
+
+    color: #2D4FAE;
+}
+
+.table-mentoring{
+    border: 2px solid #000 !important;
+    width: 100%;
+}
+
+.nomor-kelompok{
+    background-color: #2D4FAE;
+    color:#F3D060;
+    border: 1px solid #000 !important;
+}
+
+.header-mentoring{
+    border: 2px solid #000 !important;
+}
+
+tr, th, td{
+    border: 1px solid #000 !important;
+}
+
+.head-kelompok{
+    border: 0 !important;
+    text-align: center;
+}
+
+.maskot-list{
+    width: 200px;
+    position:absolute;
+    top: -100px;
+    right: 0;
+}
+
+.trail-list{
+    position: relative;
+    bottom: 250px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px){
+    .list-title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 900px){
+    .list-title{
+        font-size: 20px;
+    }
+    .maskot-list{
+        width: 150px;
+        top: -75px;
+    }
+}
+@media screen and (max-width: 650px){
+    .list-title{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .trail-list{
+        display: none;
+    }
+}
+
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2D4FAE;
+    border-radius: 10px;
+}

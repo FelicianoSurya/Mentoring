@@ -41,3 +41,5 @@ Route::get('/gallery', function(){
 });
 
 Route::get('/announcements', [Controller::class, 'announcement']);
+
+Route::get('/listKelompok', [Controller::class, 'list']);

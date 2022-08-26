@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Announcement;
+use App\Models\Kelompok;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -19,6 +20,11 @@ class Controller extends BaseController
         return view('page.announcement',[
             'announcements' => Announcement::All(),
             'dates' => Announcement::distinct('date')->pluck('date'),
+        ]);
+    }
+    public function list(){
+        return view('page.listKelompokMentoring',[
+            'lists' => Kelompok::All(),
         ]);
     }
 }
