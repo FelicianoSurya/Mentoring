@@ -883,5 +883,9 @@
         text-shadow: 2px 2px 0px #D94545;
         font-size: 40px;
     }
+    
+    .carousel-inner{
+        padding-bottom: 100%;
+    }
 }
 /* END OF SECTION-5 */

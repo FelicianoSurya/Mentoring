@@ -150,7 +150,7 @@
     background-color: white;
     width: 80%;
     border-radius: 10px;
-    z-index: 101;
+    z-index: 100;
 }
 
 .box_annoucement_content{
@@ -178,7 +178,7 @@
     background-color:#3654A3;
     margin-top: -50px;
     padding:6px 0px 20vw 0px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .box_news{

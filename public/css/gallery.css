@@ -144,6 +144,13 @@
     width: 100%;
 }
 
+.video-mentoring{
+    width: 78vw;
+    height: 43vw;
+    z-index: 2;
+}
+
+
 @media screen and (max-width: 600px){
     .title-yellow-shadow{
         font-size: 2rem !important;

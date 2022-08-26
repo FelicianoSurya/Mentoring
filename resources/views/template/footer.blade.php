@@ -18,7 +18,7 @@
             <h3 class="col-lg-12 bold fs-4">Explore Us</h3>
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/"><h6>Home</h6></a>
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/about-us"><h6>About</h6></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Announcements</h6></a>
+            {{-- <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Announcements</h6></a> --}}
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/news"><h6>News</h6></a>
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Gallery</h6></a>
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/committee"><h6>Committee</h6></a>
@@ -51,9 +51,23 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row w-100 sponsor px-4">
-        <h2 class="bold">Sponsor & Media Partner</h2>
-    </div> -->
+    <div class="row w-100 sponsor px-4">
+        <h2 class="bold">Media Partner</h2>
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center p-5">
+                <img src="{{ asset('Images/Medpar/tv.png') }}" width="100%" alt="">
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center p-5">
+                <img src="{{ asset('Images/Medpar/radio.png') }}" width="100%" alt="">
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center p-5">
+                <img src="{{ asset('Images/Medpar/juice.png') }}" width="100%" alt="">
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center align-items-center p-5">
+                <img src="{{ asset('Images/Medpar/ultimagz.png') }}" width="100%" alt="">
+            </div>
+        </div>
+    </div>
     <div class="d-flex justify-content-end mt-3">
         <img src="{{ asset('Images/Footer/logo_umn_footer.png') }}" id="akreditasi" class="mobile" alt="">
     </div>

@@ -32,7 +32,7 @@
     <!-- Custom CSS -->
     @yield('custom-css')
 </head>
-<body>
+<body id="body">
     
     <div class="content">
         @include('template.navbar')
@@ -55,6 +55,7 @@
                 $(this).toggleClass('open');
                 $('.nav-overlay').toggleClass('active')
                 $('.nav-main').toggleClass('active')
+                $('#body').toggleClass('overflowdie')
             });
         });
     </script>

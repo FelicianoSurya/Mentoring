@@ -54,7 +54,7 @@
             <div class="swiper mb-5">
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide">
+                    {{-- <div class="swiper-slide">
                         <div class="z-10 mt-5 mb-3 bold title-yellow-shadow text-center">
                             PEMBEKALAN MENTOR 3
                         </div>
@@ -65,21 +65,24 @@
                             PEMBEKALAN MENTOR 2
                         </div>
                         <img src="{{ asset('Images/Gallery/video.png') }}" class="image-content">
-                    </div>
+                    </div> --}}
                     <div class="swiper-slide">
                         <div class="z-10 mt-5 mb-3 bold title-yellow-shadow text-center">
                             PEMBEKALAN MENTOR 1
                         </div>
-                        <img src="{{ asset('Images/Gallery/video.png') }}" class="image-content">
+                        <video controls class="d-block mx-auto video-mentoring" class="image-content">
+                            <source src="{{ asset('Images/Gallery/pembekalanmentor1.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
                 
             </div>
-            <div class="d-flex px-5 relative w-100 justify-content-center my-lg-3 my-1">
+            {{-- <div class="d-flex px-5 relative w-100 justify-content-center my-lg-3 my-1">
                 <div class="swiper-button-prev desktop"></div>
                 <div class="swiper-pagination mx-0"></div>
                 <div class="swiper-button-next desktop"></div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

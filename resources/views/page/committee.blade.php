@@ -369,8 +369,8 @@
                 </div>
             </div>
         </div>
-        <div class="close close_mentor py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_mentor" data-bs-toggle="collapse" data-bs-target="#mentor" aria-expanded="false" aria-controls="mentor">
+        <div class="close close_mentor mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_mentor" data-bs-toggle="collapse" data-bs-target="#mentor" aria-expanded="false" aria-controls="mentor">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -422,8 +422,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_cc py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_cc" data-bs-toggle="collapse" data-bs-target="#cc" aria-expanded="false" aria-controls="cc">
+        <div class="close close_cc mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_cc" data-bs-toggle="collapse" data-bs-target="#cc" aria-expanded="false" aria-controls="cc">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -475,8 +475,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_admin py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_admin" data-bs-toggle="collapse" data-bs-target="#admin" aria-expanded="false" aria-controls="admin">
+        <div class="close close_admin mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_admin" data-bs-toggle="collapse" data-bs-target="#admin" aria-expanded="false" aria-controls="admin">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -527,8 +527,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_accom py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_accom" data-bs-toggle="collapse" data-bs-target="#accom" aria-expanded="false" aria-controls="accom">
+        <div class="close close_accom mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_accom" data-bs-toggle="collapse" data-bs-target="#accom" aria-expanded="false" aria-controls="accom">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -579,8 +579,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_web py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_web" data-bs-toggle="collapse" data-bs-target="#web" aria-expanded="false" aria-controls="web">
+        <div class="close close_web mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_web" data-bs-toggle="collapse" data-bs-target="#web" aria-expanded="false" aria-controls="web">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -613,25 +613,18 @@
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <div class="box-kelompok shadow-ec p-lg-6 p-3 row">
                     <div class="d-flex flex-column justify-content-between align-items-center col-lg-6 col-6">
-                        <img class="image-ketua" src="{{ asset('Images/Committee/member/Koor_') }}" alt="">
-                        <div class="d-flex flex-column align-items-center justify-content-center">
-                            <h3 class="bold nama_ketua">Nama Ketua</h3>
-                            <h5>Koor</h5>
-                        </div>
+                        <img class="image-ketua" src="{{ asset('Images/Committee/member/Koor_EXC.png') }}" alt="">
                     </div>
                     <div class="col-lg-6 col-6 d-flex flex-column align-items-center">
                         <div class="d-flex justify-content-start">
-                            <img class="image-anggota" src="{{ asset('Images/Committee/member/') }}" alt="">    
-                        </div>
-                        <div class="d-flex list_anggota">
-                            <p class="text-center">Nama Anggota, Nama Anggota, Nama Anggota, Nama Anggota, Nama Anggota, Nama Anggota, Nama Anggota</p>
-                        </div>     
+                            <img class="image-anggota" src="{{ asset('Images/Committee/member/EXC.png') }}" alt="">    
+                        </div>    
                     </div>
                 </div>  
             </div>
         </div>
-        <div class="close close_ec py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_ec" data-bs-toggle="collapse" data-bs-target="#ec" aria-expanded="false" aria-controls="ec">
+        <div class="close close_ec mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_ec" data-bs-toggle="collapse" data-bs-target="#ec" aria-expanded="false" aria-controls="ec">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -683,8 +676,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_dokum py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_dokum" data-bs-toggle="collapse" data-bs-target="#dokum" aria-expanded="false" aria-controls="dokum">
+        <div class="close close_dokum mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_dokum" data-bs-toggle="collapse" data-bs-target="#dokum" aria-expanded="false" aria-controls="dokum">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -735,8 +728,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_visual py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_visual" data-bs-toggle="collapse" data-bs-target="#visual" aria-expanded="false" aria-controls="visual">
+        <div class="close close_visual mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_visual" data-bs-toggle="collapse" data-bs-target="#visual" aria-expanded="false" aria-controls="visual">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -786,8 +779,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_prmr py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_prmr" data-bs-toggle="collapse" data-bs-target="#prmr" aria-expanded="false" aria-controls="prmr">
+        <div class="close close_prmr mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_prmr" data-bs-toggle="collapse" data-bs-target="#prmr" aria-expanded="false" aria-controls="prmr">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -838,8 +831,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_research py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_research" data-bs-toggle="collapse" data-bs-target="#research" aria-expanded="false" aria-controls="research">
+        <div class="close close_research mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_research" data-bs-toggle="collapse" data-bs-target="#research" aria-expanded="false" aria-controls="research">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
@@ -889,8 +882,8 @@
                 </div>  
             </div>
         </div>
-        <div class="close close_insurer py-lg-3 py-1 mb-5 d-flex justify-content-center align-items-center">
-            <button class="d-flex flex-column align-items-center justify-content-center clickdown clickdown_insurer" data-bs-toggle="collapse" data-bs-target="#insurer" aria-expanded="false" aria-controls="insurer">
+        <div class="close close_insurer mb-5 d-flex justify-content-center align-items-center">
+            <button class="d-flex flex-column align-items-center justify-content-center w-100 clickdown py-lg-3 py-1 clickdown_insurer" data-bs-toggle="collapse" data-bs-target="#insurer" aria-expanded="false" aria-controls="insurer">
                 <p class="bold our-team">Our Teams</p>
                 <img class="down-team" src="{{ asset('Images/Committee/Vector_arrow_down.png') }}" alt="">
             </button>
