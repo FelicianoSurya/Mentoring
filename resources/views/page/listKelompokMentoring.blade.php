@@ -34,9 +34,9 @@
                         <tbody>
                     @else
                         <tr>
-                            <td style="width:10%">{{ $j++ }}</td>
-                            <td>{{ $mentee->Nama }}</td>
-                            <td style="width: 25%">{{ $mentee->NIM }}</td>
+                            <td style="width:5%;text-align:center;">{{ $j++ }}</td>
+                            <td style="width: 50%">{{ $mentee->Nama }}</td>
+                            <td style="width: 20%;">{{ $mentee->NIM }}</td>
                             <td >{{ $mentee->Prodi }}</td>
                         </tr>
                     @endif
