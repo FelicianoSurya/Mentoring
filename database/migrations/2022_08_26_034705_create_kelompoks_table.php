@@ -18,6 +18,8 @@ class CreateKelompoksTable extends Migration
             $table->integer("NomorKelompok");
             $table->text("Nama");
             $table->text("NIM");
+            $table->text("Prodi");
+            $table->text("status");
             $table->timestamps();
         });
     }

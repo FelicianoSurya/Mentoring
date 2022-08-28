@@ -20,8 +20,9 @@
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/about-us"><h6>About</h6></a>
             {{-- <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Announcements</h6></a> --}}
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/news"><h6>News</h6></a>
-            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="#"><h6>Gallery</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/gallery"><h6>Gallery</h6></a>
             <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/committee"><h6>Committee</h6></a>
+            <a class="menu-footer navy bold mt-2 col-lg-12 col-6" href="/listKelompok"><h6>List Kelompok</h6></a>
         </div>
         <div class="col-12 px-lg-5 px-3 mt-lg-0 mt-4 col-lg-4 d-flex flex-column">
             <h3 class="bold">Address</h3>

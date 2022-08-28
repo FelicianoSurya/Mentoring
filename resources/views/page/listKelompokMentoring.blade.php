@@ -14,26 +14,34 @@
     <div class="list-box">
         @for($i = 1; $i<=DB::table('kelompoks')->orderBy('NomorKelompok', 'desc')->first()->NomorKelompok; $i++)
             <table class=" table table-mentoring">
-                <thead>
-                    <tr class="nomor-kelompok">
-                        <th class="head-kelompok" colspan="3">KELOMPOK {{ $i }}</th>
-                    </tr>
-                    <tr class="header-mentoring">
-                        <th>No. </th>
-                        <th>Nama</th>
-                        <th>NIM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php $j = 1; ?>
-                    @foreach($lists->where('NomorKelompok', $i) as $mentee)
+                <?php $j = 1; ?>
+                @foreach($lists->where('NomorKelompok', $i) as $mentee)
+                    @if($mentee->status == 'mentor')
+                        <thead>
+                            <tr class="nomor-kelompok">
+                                <th class="head-kelompok" colspan="4">KELOMPOK {{ $i }}</th>
+                            </tr>
+                            <tr class="list-mentor">
+                                <th colspan="4" class="head-mentor">{{ $mentee->Nama }}</th>
+                            </tr>
+                            <tr class="header-mentoring">
+                                <th>No. </th>
+                                <th>Nama</th>
+                                <th>NIM</th>
+                                <th>Prodi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    @else
                         <tr>
                             <td style="width:10%">{{ $j++ }}</td>
                             <td>{{ $mentee->Nama }}</td>
                             <td style="width: 25%">{{ $mentee->NIM }}</td>
+                            <td >{{ $mentee->Prodi }}</td>
                         </tr>
-                    @endforeach
+                    @endif
                 </tbody>
+                @endforeach
             </table>
         @endfor
     </div>

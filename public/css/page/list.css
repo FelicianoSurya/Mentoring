@@ -50,7 +50,7 @@ tr, th, td{
 }
 
 .head-kelompok{
-    border: 0 !important;
+    border: 1px solid #000 !important;
     text-align: center;
 }
 
@@ -65,6 +65,13 @@ tr, th, td{
     position: relative;
     bottom: 250px;
     width: 100%;
+}
+
+.list-mentor{
+    background-color: #F2A844;
+}
+.head-mentor{
+    text-align: center;
 }
 
 @media screen and (max-width: 1100px){
